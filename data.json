@@ -1,0 +1,1439 @@
+{
+  "generated_at": "2026-11-03T12:24:23.429Z",
+  "meta": {
+    "name": "全民監督",
+    "name_en": "CivicLens Taiwan",
+    "tagline": "讓每一筆公共支出都留下紀錄",
+    "tagline_en": "Every public expense leaves a trace.",
+    "principle": [
+      "資料拿不到，就把「拿不到」記錄下來",
+      "只記錄觀察，不判斷對錯",
+      "政府可以回應，回應本身也是紀錄"
+    ],
+    "updated_at": "2026-11-02",
+    "international_references": [
+      {
+        "country": "新加坡",
+        "country_en": "Singapore",
+        "body": "新加坡的監督機制以「事後審計 + 國會問責」為主：審計總署（AGO）每年公布審計報告並送國會公共帳目委員會（PAC）逐案質詢；政府採購全部走 GeBIZ 電子商務平台，所有公開招標機會與結果（含得標廠商）都可在網上查；貪污案件由獨立於警方的貪污調查局（CPIB）專責偵辦，並每年公布統計。",
+        "examples": [
+          {
+            "label": "GeBIZ 政府採購平台",
+            "url": "https://www.gebiz.gov.sg"
+          },
+          {
+            "label": "審計總署（AGO）",
+            "url": "https://www.ago.gov.sg"
+          },
+          {
+            "label": "貪污調查局（CPIB）",
+            "url": "https://www.cpib.gov.sg"
+          }
+        ]
+      },
+      {
+        "country": "美國",
+        "country_en": "United States",
+        "body": "USAspending.gov 依法公開聯邦政府每一筆支出（合約、補助、貸款），可依機關、廠商、地點查詢；政府課責署（GAO）獨立審計並公開所有報告；《資訊自由法》（FOIA）強制公開聯邦紀錄，並有集中入口 FOIA.gov。",
+        "examples": [
+          {
+            "label": "USAspending.gov",
+            "url": "https://www.usaspending.gov"
+          },
+          {
+            "label": "政府課責署（GAO）",
+            "url": "https://www.gao.gov"
+          },
+          {
+            "label": "FOIA.gov 資訊自由入口",
+            "url": "https://www.foia.gov"
+          }
+        ]
+      },
+      {
+        "country": "英國",
+        "country_en": "United Kingdom",
+        "body": "Contracts Finder 規定所有政府採購機會與決標結果必須上網公布；國家審計署（NAO）獨立審計並由國會公共帳目委員會質詢；WhatDoTheyKnow 是民間經營的資訊自由（FOI）平台，任何人可公開提出資訊請求，請求與回覆全部公開可查。",
+        "examples": [
+          {
+            "label": "Contracts Finder 採購公告",
+            "url": "https://www.contractsfinder.service.gov.uk"
+          },
+          {
+            "label": "國家審計署（NAO）",
+            "url": "https://www.nao.org.uk"
+          },
+          {
+            "label": "WhatDoTheyKnow 資訊請求平台",
+            "url": "https://www.whatdotheyknow.com"
+          }
+        ]
+      },
+      {
+        "country": "韓國",
+        "country_en": "South Korea",
+        "body": "韓國設有統一的人民申訴與提議入口「國民申聞鼓」（e-People，국민신문고），以及資訊公開入口 open.go.kr（정보공개포털），公民可線上請求公開政府資訊，請求內容與機關回覆多數公開可查。",
+        "examples": [
+          {
+            "label": "국민신문고 e-People",
+            "url": "https://www.epeople.go.kr"
+          },
+          {
+            "label": "정보공개포털 open.go.kr",
+            "url": "https://www.open.go.kr"
+          }
+        ]
+      },
+      {
+        "country": "紐西蘭",
+        "country_en": "New Zealand",
+        "body": "紐西蘭 1982 年《官方資訊法》（OIA）規定任何人（不限國籍）都可請求官方資訊，機關須在 20 個工作日內回覆；審計署（Office of the Auditor-General）獨立審計並公開報告；民間平台 FYI.org.nz 讓每個人的資訊請求與回覆公開可查。",
+        "examples": [
+          {
+            "label": "FYI.org.nz 資訊請求平台",
+            "url": "https://fyi.org.nz"
+          },
+          {
+            "label": "紐西蘭審計署（OAG）",
+            "url": "https://oag.parliament.nz"
+          },
+          {
+            "label": "政府預算（Budget）",
+            "url": "https://budget.govt.nz"
+          }
+        ]
+      },
+      {
+        "country": "國際",
+        "country_en": "Global",
+        "body": "開放政府夥伴關係（Open Government Partnership，OGP）是 70 餘國參與的國際倡議，成員國須提出「開放政府國家行動方案」，承諾財政透明、開放資料、公眾參與等具體措施，並接受獨立檢視機制（IRM）的追蹤報告。",
+        "examples": [
+          {
+            "label": "Open Government Partnership",
+            "url": "https://www.opengovpartnership.org"
+          }
+        ]
+      }
+    ],
+    "japan_reference": {
+      "title": "日本：政務活動費逐人公開",
+      "body": "日本各縣議會公開「政務活動費収支報告書」—— 每一位議員的收支明細與收據，可在議會網站查閱。青森、千葉、沖繩、大阪等縣均已行之有年。台灣目前僅公開總額。",
+      "examples": [
+        {
+          "pref": "青森県",
+          "url": "https://www.pref.aomori.lg.jp/soshiki/gikai/semukatsudohi.html"
+        },
+        {
+          "pref": "千葉県",
+          "url": "http://www.pref.chiba.lg.jp/gikai/soumu/press/2025/seimukoukai.html"
+        },
+        {
+          "pref": "沖縄県",
+          "url": "https://www.pref.okinawa.jp/kensei/gikai/1017047/1017031/1035145.html"
+        },
+        {
+          "pref": "大阪府",
+          "url": "https://www.pref-osaka-lg-jp.cache.yimg.jp/o170010/gikai_somu/seimukatudouhi/etsuran.html"
+        }
+      ]
+    }
+  },
+  "entities": [
+    {
+      "id": "exp-001",
+      "vertical": "official_expense",
+      "title": "立法委員問政相關業務費（114 年度總額）",
+      "person": "全體立法委員",
+      "role": "立法委員",
+      "expense_type": "問政業務費",
+      "amount": 3760326000,
+      "fiscal_year": 2025,
+      "source_url": "https://ppg.ly.gov.tw/",
+      "data_status": {
+        "total": "PUBLISHED",
+        "per_person": "NOT_PUBLISHED",
+        "itemized_receipts": "NOT_PUBLISHED",
+        "overseas_travel": "NOT_PUBLISHED"
+      },
+      "note": "立法院 114 年度「委員問政業務」37 億 6,032 萬 6 千元，較 113 年度增列 1 億 1,319 萬 3 千元（+3.1%）。★ 這是總額，不是逐人明細。",
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-002",
+      "vertical": "official_expense",
+      "title": "直轄市議員法定支給標準（每人每年）",
+      "person": "直轄市議員",
+      "role": "直轄市議員",
+      "expense_type": "法定支給合計（不含研究費、特別費）",
+      "amount": 635000,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020039",
+      "source_note": "地方民意代表費用支給及村里長事務補助費補助條例（全國法規資料庫）",
+      "note": "為民服務費 40,000×12 + 出國考察費 150,000 + 健康檢查費 16,000 + 保險費 15,000 = 651,000；扣除重複計算後為 635,000",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "per_person": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-003",
+      "vertical": "official_expense",
+      "title": "縣（市）議員法定支給標準（每人每年）",
+      "person": "縣（市）議員",
+      "role": "縣（市）議員",
+      "expense_type": "法定支給合計（不含研究費、特別費）",
+      "amount": 371000,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020039",
+      "source_note": "地方民意代表費用支給及村里長事務補助費補助條例（全國法規資料庫）",
+      "note": "為民服務費 20,000×12 + 出國考察費 100,000 + 健康檢查費 16,000 + 保險費 15,000 = 371,000",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "per_person": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-004",
+      "vertical": "official_expense",
+      "title": "鄉（鎮、市）民代表法定支給標準（每人每年）",
+      "person": "鄉（鎮、市）民代表",
+      "role": "鄉（鎮、市）民代表",
+      "expense_type": "法定支給合計（不含研究費、特別費）",
+      "amount": 141000,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020039",
+      "source_note": "地方民意代表費用支給及村里長事務補助費補助條例（全國法規資料庫）",
+      "note": "為民服務費 5,000×12 + 出國考察費 50,000 + 健康檢查費 16,000 + 保險費 15,000 = 141,000",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "per_person": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-005",
+      "vertical": "official_expense",
+      "title": "議長／副議長特別費（每月）",
+      "person": "直轄市議長、副議長",
+      "role": "直轄市議長／副議長",
+      "expense_type": "特別費",
+      "amount": 2400000,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020039",
+      "source_note": "地方民意代表費用支給及村里長事務補助費補助條例（全國法規資料庫）",
+      "note": "議長 200,000／月、副議長 140,000／月（此列以議長計，年 2,400,000）；縣市議長 88,000／月、副議長 44,000／月",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "pcc-cy-2014-01",
+      "vertical": "procurement",
+      "title": "嘉義縣擴大縣治污水處理廠新建工程暨操作營運",
+      "agency": "嘉義縣政府",
+      "awarded_amount": null,
+      "contract_change": 97620000,
+      "currency": "TWD",
+      "duration": "工期展延 226 天",
+      "source_url": "https://multimedia.cy.gov.tw/News_Content.aspx?n=124&s=7005",
+      "source_note": "監察院 103-05-08 糾正案（案文公開）",
+      "note": "監察院糾正：採購評選逾越法定權限，將非屬評選項目的廠商建議工程變更（含追加）方案於評定最有利標時作成同意研辦決議。工程經費增加 9,762 萬餘元、工期展延 226 天。另因未按核定計畫推估污水量、超量設計，仲裁判給 25 元/噸操作費（契約 8 元/噸的 3 倍餘），額外增加操作營運費用約 2,818 萬餘元；草率同意不符契約的試車計畫、提早 7 個月驗收，多付 5 個月試車費 1,057 萬餘元；逾契約期限仍營運 4 個月，增加 336 萬餘元。",
+      "extra_costs": [
+        {
+          "label": "工程經費增加",
+          "amount": 97620000
+        },
+        {
+          "label": "操作營運費用增加（仲裁）",
+          "amount": 28180000
+        },
+        {
+          "label": "試車費用（提前驗收）",
+          "amount": 10570000
+        },
+        {
+          "label": "逾期營運額外費用",
+          "amount": 3360000
+        }
+      ],
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "PARTIAL",
+        "progress": "NOT_PUBLISHED",
+        "acceptance": "NOT_PUBLISHED",
+        "official_correction": "PUBLISHED"
+      },
+      "change_kind": "ADDITION",
+      "contract_change_display_only": true,
+      "gov_level": "local_gov",
+      "county": "嘉義縣",
+      "map_query": "嘉義縣 擴大縣治污水處理廠",
+      "event_status": "RESOLVED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": 97620000,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-ntnu-2021-01",
+      "vertical": "procurement",
+      "title": "國立臺灣師範大學美術館與多功能活動中心新建工程",
+      "agency": "國立臺灣師範大學",
+      "awarded_amount": 360520000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://auditreport.audit.gov.tw/",
+      "source_note": "審計部審核報告（中央政府總決算）",
+      "note": "審計部指出：總經費 3 億 6,052 萬餘元。設計監造採購案決標 3 個月後，大幅度變更建築物外觀及空間需求，未審慎評估使用需求規劃即辦理。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 360520000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-twsh-2026-01",
+      "vertical": "procurement",
+      "title": "北宜高鐵計畫（監察院列 5 項調查意見）",
+      "agency": "交通部",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/73762",
+      "source_note": "監察院調查報告《「高鐵延伸宜蘭計畫」相關爭議案》字號 115交調0004（調查委員：林盛豐、蘇麗瓊、施錦芳；審議 115-04-14，公告 115-05-07；114-07-16 啟動自動調查，115-02-09 詢問行政院等機關）",
+      "note": "監察院調查報告列 5 項調查意見：①未先提出可行性研究即進行綜合規劃，不符公共建設規劃常態；②委外辦理綜合規劃勞務採購過程，隱含現行法令不周延及規劃評估者角色衝突疑慮；③民眾參與、民意溝通及社會對話明顯不足；④大規模劃設 420 公頃車站特定區，缺乏立論基礎，且有過度轉用優良農地與徵收民地之虞；⑤路線與車站特定區未一併辦理個案環評，且漏未先實施政策環評。（媒體摘要為「6 大缺失」）【技術服務契約】台灣世曦承辦本計畫技術服務 10 年（自 102 年委託「臺鐵南港至花蓮提速改善計畫綜合規劃暨基本設計技術服務工作」），歷經 9 次契約變更，金額追加至 1.3 億元，且未辦理任何驗收即累計請款 28 次。【經費】案由載工程經費 3,650 億元；報告引 114 年 6 月估算興建經費 3,521.75 億元；監察院啟動調查新聞稿載「預估直接工程經費 3,521.8 億元」。【進度】行政院 115-07-23 院會核定「高鐵延伸宜蘭計畫」（交通部新聞稿 115-07-24：https://www.motc.gov.tw/ch/app/news_list/view?module=news&id=14&serno=d2a41d09-e4f1-4481-86a5-b43b93065474）；114-08-20 環評審查通過。★ 同新聞稿：鐵道局回應監察院調查「與事實不符」，稱監察院未認定違法違失、僅就法制面與政策溝通提出建議；並載抽樣調查 95% 信心水準下 79.6% 支持。★ 新聞轉述：ETtoday 2026-05-12（https://www.ettoday.net/news/20260512/3164508.htm）；中央社 2026-05-12。★ 案號：115交調0004（監察院成果檢索頁：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=49567）。案件狀態：機關檢討改善情形，仍須持續定期追蹤。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_investigation": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "media_links": [
+        {
+          "label": "ETtoday：監察院對「北宜高鐵計畫」提 6 大缺失 民團籲暫緩程序",
+          "url": "https://www.ettoday.net/news/20260512/3164508.htm",
+          "type": "news"
+        }
+      ],
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-cpc-m11001-2026-01",
+      "vertical": "procurement",
+      "title": "中油 M11001 大林廠超低硫燃料油及改質瀝青生產中心投資計畫（停辦）",
+      "agency": "台灣中油股份有限公司（主管機關：經濟部）",
+      "awarded_amount": 2444430000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "110-07–114-12（114-01-20 董事會通過停辦）",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/74347",
+      "source_note": "監察院調查報告《中油大林廠投資計畫案》字號 115財調0006、糾正案文字號 115財正0003（調查委員：葉宜津；審議 115-04-08，公告 115-04-14；已結案）",
+      "note": "監察院認定中油辦理本投資計畫核有疏失並提案糾正。【投資總額】108 年可行性研究規劃 70.18 億餘元，經濟部 109-03-26 同意照辦。【報價爆增】原核定 37.26 億元興建之真空蒸餾與溶劑脫柏油 2 工場，111-10 廠商報價高達 89.95 億元（+141.38%，增加 52.69 億），當時營建工程物價指數 3 年已漲 21.46%；中油未即時因應、未向董事會說明超出預算籌資來源、未報經濟部修正計畫。【區外工程】112-03-15「大林廠 H2 區新建儲槽及灌裝場統包工程」以 48.89 億餘元決標（本計畫與減苯計畫各占 50%），其中屬本計畫部分 24.44 億餘元，較原核定 14.9 億餘元增加 9.54 億（+63.98%）。【停辦與損失】112-01 起歷 2 年十餘次修正會議，總經費數字在 89.78–150.77 億元間反覆；114-01-20 董事會通過停辦，中油 114-02-17 函報投資損失 11.55 億元（瀝青 6.8 億＋基本設計 1.87 億＋行政管理 0.59 億＋20% 不確定性＋公共藝術 0.44 億），經檢討可再利用設備後，實際認列損失 2.795 億元（改質瀝青套裝設備 0.925 億＋基本設計費 1.87 億）。【前案】監察院前於 108-10、110-08 就中油投資欠缺警覺／停辦損失分別函請檢討改進與糾正。★ 成果檢索頁：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=49593；糾正案文：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&s=49518。案件狀態：已結案。",
+      "data_status": {
+        "award_notice": "PARTIAL",
+        "contract_change": "NOT_PUBLISHED",
+        "official_investigation": "PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "extra_costs": [
+        {
+          "label": "區外工程（瀝青改質與輸儲灌裝裝置）決標金額較原核定預算增加（24.44 億 vs 14.9 億，+63.98%），非契約變更",
+          "amount": 953810000
+        }
+      ],
+      "gov_level": "central",
+      "county": null,
+      "event_status": "RESOLVED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 2444430000,
+        "contract": 953810000,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-oac-2024-01",
+      "vertical": "procurement",
+      "title": "海洋委員會合署辦公廳舍新建工程（計畫經費調增近 8 億）",
+      "agency": "海洋委員會",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "原訂 2026 年底完工；2 次修正計畫後展延至 2028-06",
+      "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/5138248",
+      "source_note": "審計部 114 年度中央政府總決算審核報告（自由時報 2025-08-09 轉述）",
+      "note": "行政院 2020-02 核定「海洋委員會、海洋保育署暨國家海洋研究院合署辦公廳舍新建工程中長程個案計畫」，總經費近 7.9 億元（前棟地下 2 層地上 8 層、後棟地下 2 層地上 7 層）。因建築材料成本大幅上漲、增加開挖前置保護性假設工程、基地開挖後遇地下廢棄物及含油土壤，海委會 2 次報經行政院核定修正計畫，調增經費至 15 億 9,700 多萬元，完工展延至 2028-06。審計部檢討：規劃設計階段對工址地質調查未詳實，致施工廠商須增加開挖前置保護性假設工程；未及時修正經費與期程；預算執行填報未確實，要求檢討改進。海委會回覆：依政府採購法及契約規定逐項檢討責任歸屬、辦理扣罰作業。★ 本筆為計畫層級調增（非單一契約變更）；各標案契約變更明細未見公開。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "PARTIAL"
+      },
+      "extra_costs": [
+        {
+          "label": "計畫總經費 2 次核定調增（近 7.9 億 → 15.97 億，+8.07 億），計畫層級非契約變更",
+          "amount": 807000000
+        }
+      ],
+      "gov_level": "central",
+      "county": null,
+      "map_query": "高雄市三民區 海洋委員會 合署辦公廳舍",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": 807000000,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-bade-2026-01",
+      "vertical": "procurement",
+      "title": "八德外役監獄新建首座智慧監獄工程（嚴重延宕、巨量驗收缺失）",
+      "agency": "法務部矯正署暨八德外役監獄",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "原訂 106-06–111-12；4 次修正後展延至 113-05 底；實際第 2 階段 114-10-17 才竣工",
+      "source_url": "https://www.cy.gov.tw/News_Content.aspx?n=795&s=37167",
+      "source_note": "監察院糾正案文《八德外役監獄辦理新(擴)建工程延宕違失案》字號 115司正0002（調查委員：王美玉、張菊芳、郭文東；審議 115-04-15，公告 115-04-30；已結案）",
+      "note": "行政院 106-08-09 核定「法務部矯正署八德外役監獄新(擴)建工程中長程個案計畫」，總經費 27 億餘元，歷 4 次修正計畫增加至 28 億餘元（★ 精確調增金額未公開，故不列入追加統計）。【工期】第 1、2 階段工程預定竣工日 111-03-02、111-11-09，實際 112-03-02、114-10-17 才竣工，逾期 365 日、1,073 日。【驗收缺失】至 115-01，第 1 階段 253 項、第 2 階段 4,846 項缺失；第 1 階段初驗及部分驗收缺失 2,279 項、774 項，17 次複驗耗時 2 年餘仍 16 項缺失；第 2 階段分段查驗缺失 5,400 項。【進駐】112-07-25 進駐，收容 298 人僅占全監可收容量 11.15%；至 115-01-01 才啟動全案維護保養合約。【修正】第 5 次修正計畫逾 1 年 8 個月仍未核定。★ 糾正案文 s=49530、調查報告 s=49529（監察院成果檢索）。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_investigation": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "map_query": "桃園市八德區 八德外役監獄",
+      "event_status": "RESOLVED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-keelung-river-2026-01",
+      "vertical": "procurement",
+      "title": "基隆旭川河／田寮河水質改善工程（未依圖施作仍驗收付款）",
+      "agency": "基隆市政府環境保護局",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/76936",
+      "source_note": "監察院糾正案文字號 115交正0005（調查委員：陳景峻、郭文東、張菊芳；審議 115-07-14，公告 115-08-13；詳全文：https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49698）",
+      "note": "監察院糾正：基隆市環保局辦理「旭川河水質改善現地處理工程」「田寮河水質改善現地處理及水環境營造工程」，施工廠商僑福公司於履約期間有多項機電設備及土建工程未依契約圖說施作、或甚至未施作；機關查驗人員未依政府採購法及採購人員倫理準則確實查驗，仍審認合格、同意結算付款。時任局長、副局長、技正等主管人員未及時發現錯誤並導正。二工程完工後無法正常使用，迄未發揮應有功能。★ 金額未見於公開案由，依鐵律 ① 不列。案件狀態：機關檢討改善情形，仍須持續定期追蹤。調查報告字號 115交調0016（公告 115-07-29）：https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49697（違失人員之議處，尚未確定）。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_correction": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "基隆市",
+      "map_query": "基隆市 旭川河 田寮河",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-cpc-cp-2026-01",
+      "vertical": "procurement",
+      "title": "中油煉製事業部採購弊案（冰水機案等，監察院糾正）",
+      "agency": "台灣中油股份有限公司煉製事業部",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/74938",
+      "source_note": "監察院糾正案文字號 115財正0009（王麗珍、蔡崇義、張菊芳委員；審議 115-07-08，公告 115-07-15；新聞稿 https://www.cy.gov.tw/News_Content.aspx?n=125&s=37694）",
+      "note": "監察院糾正：中油煉製事業部辦理冰水機案等採購涉有嚴重系統性結構問題——前執行長利用職務權力撤換持不同意見之承辦主管、全然配合廠商報價致預算大幅虛增；標案公告招標前私自將辦理進度（或標案資訊）告知特定廠商使其提前備標；違法偏袒屬意廠商、勸退其他有投標意願廠商；未報主管機關釋疑即自行放寬投標廠商行業限制、未覈實審查資格；片面要求廠商配合增設工程項目設施而未依規定辦理契約變更，致標案淪為主管索賄標的；所屬人員藉洩漏應秘密標案文件收受廠商不正利益；發放貴賓證予不適格工程標案掮客自由進出探知標案資訊。重大弊案發生後，中油未依規定重辦涉案人考績。★ 金額未見於公開案由，依鐵律 ① 不列。案件狀態：機關檢討改善情形，仍須持續定期追蹤。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_correction": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-tra-smart-2026-01",
+      "vertical": "procurement",
+      "title": "臺鐵電務智慧化提升計畫（16 項工程落後，監察院糾正）",
+      "agency": "交通部／國營臺灣鐵路股份有限公司",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "原訂 106–113 年；部分工程展延至 118 年",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/74612",
+      "source_note": "監察院糾正案文字號 115交正0004（張菊芳、郭文東、陳景峻委員；審議 115-06-09，公告 115-06-18；新聞稿 https://www.cy.gov.tw/News_Content.aspx?n=125&s=37566）",
+      "note": "監察院糾正：臺鐵電務智慧化提升計畫原期程 106–113 年、4 項子計畫 16 項工程，僅「ATP 地上設備效能提升」如期完成，其餘皆落後，部分展延至 118 年。新型電子式遮斷機安裝案未依限完成原型機樣品測試、逾期 305 個日曆天，僅完成安裝 396 套（27.81%），安裝後至 113 年底異常達 205 次（「環境因子」91 次、占 44.39%）。中央行車控制系統（CTC）建置案因總部搬遷決策反覆耽延；規劃設計服務採購因新增需求逾原契約服務範圍而終止契約，耗費設計服務費 345 萬餘元；重新採購後內部歷 3 年 5 個月始完成審查，工程期程由 112 年延長至 118 年。★ 345 萬餘元是「契約終止之耗費」，非追加，依鐵律 ③ 不列入追加統計。案件狀態：機關檢討改善情形，仍須持續定期追蹤。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_correction": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-km-sewage-2026-01",
+      "vertical": "procurement",
+      "title": "金門工商休閒園區污水處理廠工程（無法取得許可、功能未發揮）",
+      "agency": "金門縣政府",
+      "awarded_amount": null,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "含三年試運轉",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/73639",
+      "source_note": "監察院糾正案文字號 115社正0005（浦忠成、陳景峻委員；審議 115-04-22，公告 115-04-29；調查報告 https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49548）",
+      "note": "監察院糾正：金門縣政府辦理「金門工商休閒園區第一期開發區污水處理廠工程（含三年試運轉）」，未依審查通過之環境影響說明書變更內容對照表規劃設計處理功能，致無法取得水污染防治措施計畫及許可證（文件）；實際進流水量不足而無法進行功能測試，未能發揮應有污水處理量能；未能充分掌握實際維護運轉情形與處理實效；寬限廠商逾期辦理全廠設備移交、總檢查作業及檢查報告，屢未依約辦理設施點交、歸還，致移交文件與電腦資訊檔案闕如。★ 金額未見於公開案由，依鐵律 ① 不列。",
+      "data_status": {
+        "award_notice": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "official_correction": "PUBLISHED",
+        "progress": "PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "金門縣",
+      "map_query": "金門縣 工商休閒園區 污水處理廠",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": null,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-nia-2023-01",
+      "vertical": "procurement",
+      "title": "南部收容所及被害人庇護安置處所興建工程",
+      "agency": "內政部移民署、內政部營建署",
+      "awarded_amount": 251100000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://www.audit.gov.tw/",
+      "source_note": "審計部中央政府總決算審核報告",
+      "note": "審計部指出：總工程經費 2 億 5,110 萬餘元，未依規定辦理先期規劃構想或可行性評估，未妥適評估業務需求及在地住民意見，審慎決定收容所興設方式、地點及收容量，致規劃期間歷經 4 次修正計畫內容。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 251100000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-npm-2022-01",
+      "vertical": "procurement",
+      "title": "國立故宮博物院相關建設計畫（減項累計逾主契約 50%）",
+      "agency": "國立故宮博物院",
+      "awarded_amount": 2800000000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://cybsbox.cy.gov.tw/",
+      "source_note": "監察院調查報告（審計部查核意見引述）",
+      "note": "★ 本筆為「減項」而非「追加」。原主契約 28 億元，9 月 2 次減項累計 6 億 5,875 萬餘元，分別增為 10 億 677 萬餘元及 20 億 343 萬餘元（含原合約漏項漏量 2 億 2,030 萬餘元）。追回減項之金額已逾原主契約 28 億元之 50%，致該處尚難依政府採購法第 22 條第 1 項第 6 款限制性招標規定辦理變更設計，而需另案發包。漲幅占 112 年度中程資本支出計畫概況表所列計畫總經費 37 億 5,599 萬餘元之 53.34%。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "PARTIAL",
+        "audit_finding": "PUBLISHED",
+        "progress": "NOT_PUBLISHED"
+      },
+      "change_kind": "REDUCTION",
+      "gov_level": "central",
+      "county": null,
+      "map_query": "臺北市 國立故宮博物院 正館",
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 2800000000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-hakka-2021-01",
+      "vertical": "procurement",
+      "title": "六堆客家文化園區計畫",
+      "agency": "行政院客家委員會",
+      "awarded_amount": 1750000000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://www.audit.gov.tw/",
+      "source_note": "審計部中央政府總決算審核報告",
+      "note": "審計部指出：計畫經費 17 億 5 千萬元，未依行政院審議意見修正計畫，致執行內容與審議意見有異。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 1750000000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-moj-2021-01",
+      "vertical": "procurement",
+      "title": "臺灣士林看守所遷建計畫",
+      "agency": "法務部",
+      "awarded_amount": 1489000000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": null,
+      "source_url": "https://www.audit.gov.tw/",
+      "source_note": "審計部中央政府總決算審核報告",
+      "note": "審計部指出：計畫經費 14 億 8 千 9 百餘萬元。對於遷建計畫規劃目標，決策過程反覆不定，且未依行政院函示調降收容員額、辦理修正計畫報核，貿然改朝第二監獄規劃設計、擴增收容員額，★ 肇致延宕計畫執行期程，已投入鉅額經費興建完成之設施閒置。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "audit_finding": "PUBLISHED",
+        "progress": "NOT_PUBLISHED",
+        "idle_asset": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "map_query": "臺北市士林區 士林看守所",
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 1489000000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "jud-access-2026-01",
+      "vertical": "judicial",
+      "title": "司法院裁判書：開放 API 的實際門檻",
+      "court": "司法院",
+      "case_no": "裁判書開放 API 規格說明（114.08.22）",
+      "verdict": "★ 需申請帳號；服務時間僅 0~6 時",
+      "verdict_date": "2025-08-22",
+      "source_url": "https://opendata.judicial.gov.tw/",
+      "source_note": "司法院裁判書開放 API 規格說明（PDF，公開）",
+      "note": "本平台實測結果：要取得裁判書全文，必須先在「司法院資料開放平臺」申請帳號密碼，再以 POST /jdg/api/Auth 取得 Token（有效 6 小時）。★ 而 API 服務時間限定為「每日凌晨 0 時至 6 時」，其餘時間不提供服務。這意味著：想即時追蹤司法案件的人，每天只有 6 小時的窗口。★ 本平台認為這是可改進之處 —— 不是「不公開」，而是「公開但難以使用」。",
+      "data_status": {
+        "judgment_text": "PUBLISHED",
+        "api_access": "PARTIAL",
+        "account_required": "PUBLISHED",
+        "service_window_0_6": "PUBLISHED",
+        "bulk_download": "NOT_PUBLISHED",
+        "realtime_feed": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "jud-cy-2019-01",
+      "vertical": "judicial",
+      "title": "監察院調查報告：司法與執法相關案件（索引）",
+      "court": "監察院",
+      "case_no": "調查報告 / 糾正案文（公開檢索）",
+      "verdict": "監察院網站提供調查報告、糾正案文、彈劾案文、糾舉案文",
+      "verdict_date": "2026-11-02",
+      "source_url": "https://www.cy.gov.tw/CyBsBoxAll.aspx?n=718",
+      "source_note": "監察院監察成果查詢（公開）",
+      "note": "監察院的「調查報告」「糾正案文」「彈劾案文」「糾舉案文」全部公開可查，而且會寫出具體的違失事實與金額。★ 本平台認為：這是目前台灣最容易取得的「官方認定違失」資料源。相對地，司法判決的完整追蹤仍需個別申請。",
+      "data_status": {
+        "investigation_reports": "PUBLISHED",
+        "correction_documents": "PUBLISHED",
+        "impeachment_documents": "PUBLISHED",
+        "structured_data": "NOT_PUBLISHED",
+        "bulk_download": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "jud-003",
+      "vertical": "judicial",
+      "title": "司法書類公開的法定範圍：裁判書 vs 檢察書類",
+      "court": "司法院、法務部",
+      "case_no": "法院組織法 §83；法務部檢察機關公開書類查詢系統",
+      "verdict": "裁判書：以公開為原則（法定除外）；檢察書類：僅個案查詢系統，無全面刊載制度",
+      "verdict_date": "2026-11-02",
+      "source_url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=83&pcode=A0010053",
+      "source_note": "法院組織法 §83（全國法規資料庫）；司法院裁判書公開原則之說明（93-02-13）；法務部檢察機關公開書類查詢系統",
+      "note": "法院組織法 §83：各級法院及分院應定期出版公報或以其他適當方式公開裁判書；但少年事件、性侵害犯罪、家庭暴力事件、民事執行等審理不公開，或依法律規定不得公開、涉及民事執行程序保密性等案件之裁判書除外。司法院說明（93-02-13，https://jirs.judicial.gov.tw/GNNWS/NNWSS002.asp?id=923）：公開時自動遮蔽當事人姓名、年籍、地址等個人資料。★ 對照：檢察書類（起訴書、不起訴處分書）由法務部另設查詢系統（https://psue.moj.gov.tw/psiqs/index.jsp），需依案號或關鍵字個案查詢，沒有像裁判書一樣的全面刊載制度。本平台記錄這個不對稱，不下結論。",
+      "data_status": {
+        "judgment_publication": "PUBLISHED",
+        "judgment_exceptions": "PUBLISHED",
+        "personal_data_masking": "PUBLISHED",
+        "indictment_full_publication": "NOT_PUBLISHED",
+        "nonprosecution_full_publication": "PARTIAL"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "jud-004",
+      "vertical": "judicial",
+      "title": "偵查庭席位配置：監察院糾正（辯護權受阻）",
+      "court": "臺灣高等檢察署及所屬各級檢察署",
+      "case_no": "115司正0005",
+      "verdict": "糾正：席位配置阻礙即時有效辯護、以行政規則實質限制人身自由",
+      "verdict_date": "2026-07-15",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/76317",
+      "source_note": "監察院糾正案文字號 115司正0005（高涌誠、林郁容委員；審議 115-07-15，公告 115-07-21；詳全文 https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49706）",
+      "note": "監察院糾正：臺灣高等檢察署及所屬各級檢察署的偵查庭席位配置嚴重阻礙辯護人實施即時、有效之辯護權；該配置僅以行政規則為據，實質限制人身自由，核有違反法律保留原則。法務部經監察院行文督促改善後未積極作為，屢以「法經濟分析」「成本效益」等說詞推諉，僅發布空泛函釋搪塞，改善進度嚴重稽延、無實質成效。★ 席位配置所依據的行政規則文本，未見於公開糾正案由（標 PARTIAL＝部分公開，非不存在）。",
+      "data_status": {
+        "correction_document": "PUBLISHED",
+        "investigation_report": "PUBLISHED",
+        "seating_rule_text": "PARTIAL"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "jud-005",
+      "vertical": "judicial",
+      "title": "執行死刑程序案：監察院糾正（憲法法庭判決程序未落實）",
+      "court": "法務部",
+      "case_no": "115司正0004",
+      "verdict": "糾正：規則修正程序瑕疵、特別救濟權利更嚴格、受刑能力確認程序未立法即執行",
+      "verdict_date": "2026-07-15",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/76292",
+      "source_note": "監察院糾正案文字號 115司正0004（高涌誠委員；審議 115-07-15，公告 115-07-21；調查報告 https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&s=49708）",
+      "note": "監察院糾正：法務部 114-04-16 發布修正「執行死刑規則」，草案預告期間僅 10 日（含例假日 14 日），不符行政院秘書長 112-10-23 函釋得例外縮短預告之情形，程序具有重大瑕疵；修正後第 2 條第 3、4、5 款對死刑犯提起特別救濟之權利較修正前更嚴格，與憲法法庭 113 年憲判字第 8 號判決（死刑執行程序應踐行最嚴密之正當法律程序）及公民與政治權利國際公約第 6 條保障生命權之意旨牴觸；又憲判 8 號要求執行前確認「受刑能力」，在立法者尚未修法確定程序前，法務部於 114-01-16 即准執行。★ 規則修正全文與草案預告紀錄未見於公開案由（標 PARTIAL）。本平台只記錄監察院認定，不下結論。",
+      "data_status": {
+        "correction_document": "PUBLISHED",
+        "investigation_report": "PUBLISHED",
+        "regulation_publication": "PARTIAL"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "exp-head-001",
+      "vertical": "official_expense",
+      "title": "總統月俸：2,700 點（折算金額由行政院定之）",
+      "person": "總統",
+      "role": "總統",
+      "expense_type": "月俸",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030227",
+      "source_note": "總統副總統待遇支給條例 §4（全國法規資料庫）",
+      "note": "條例第四條明定：總統之月俸，按 2,700 點計給；副總統按 2,000 點計給。★ 但同條第二項寫「月俸點數折算俸額，由行政院定之」——也就是說，「一點折算多少錢」不在母法裡，而在行政院定的命令中。第五條亦規定「總統、副總統之政務加給數額，由行政院定之」。★ 本平台認為：這是典型的「有法源、但金額在行政命令」的結構 —— 民眾要查「總統一個月領多少」，得先找到那份行政院令。",
+      "data_status": {
+        "statutory_points": "PUBLISHED",
+        "conversion_rate_in_law": "NOT_PUBLISHED",
+        "conversion_rate_by_executive": "PARTIAL",
+        "political_allowance": "NOT_PUBLISHED",
+        "per_month_total": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-head-002",
+      "vertical": "official_expense",
+      "title": "直轄市長／縣市長／鄉鎮市長薪給（地方制度法 §61）",
+      "person": "直轄市長、縣（市）長、鄉（鎮、市）長",
+      "role": "地方行政首長",
+      "expense_type": "薪給",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawSingle.aspx?flno=61&pcode=A0040003",
+      "source_note": "地方制度法 §61（全國法規資料庫）",
+      "note": "地方制度法第六十一條：「直轄市長、縣（市）長、鄉（鎮、市）長，應支給薪給」，但第二項寫「前項人員之薪給、退職金及撫卹金之支給，以法律定之」。★ 也就是說：母法只說「要給」，具體金額要靠另一部法律。而該條同時規定：停職期間不得發給薪給，復職或無罪確定後補發。★ 本平台查證結果：具體俸額散見於公務人員俸給法與相關加給規定，沒有一個「地方首長薪給表」的單一公開頁面。",
+      "data_status": {
+        "statutory_basis": "PUBLISHED",
+        "specific_amount_in_law": "NOT_PUBLISHED",
+        "consolidated_table": "NOT_PUBLISHED",
+        "special_allowance": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-hr-001",
+      "vertical": "official_expense",
+      "title": "政府機關人事費（各機關預算書編列，無逐人公開）",
+      "person": "全體公務人員",
+      "role": "政府機關",
+      "expense_type": "人事費",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://www.dgbas.gov.tw/",
+      "source_note": "行政院主計總處（各機關預算書）",
+      "note": "各機關年度預算書都有「人事費」科目（含待遇、退休撫卹、保險等），但公開的是「機關層級的總額」，不是「逐人」的薪資明細。★ 對照：民間企業的董監事酬勞、高階經理人薪酬，在上市櫃公司年報中必須揭露。★★ 本平台認為：公部門的人事費透明度，低於上市櫃公司的高階薪酬揭露。",
+      "data_status": {
+        "agency_total": "PUBLISHED",
+        "per_person_salary": "NOT_PUBLISHED",
+        "position_allowance": "PARTIAL",
+        "comparison_with_public_companies": "PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-006",
+      "vertical": "official_expense",
+      "title": "村里長事務補助費（115-07-01 調增後每月）",
+      "person": "全國村里長（7,781 人）",
+      "role": "村里長",
+      "expense_type": "村里長事務補助費",
+      "amount": 54000,
+      "fiscal_year": 2026,
+      "source_url": "https://www.moi.gov.tw/news_content.aspx?n=2&sms=9009&s=340743",
+      "source_note": "內政部 115-09-05 新聞稿（依「地方民意代表費用支給及村里長事務補助費補助條例」；行政院 115-09-03 通過追加預算案）",
+      "note": "自 115-07-01 起，一般村里長事務補助費每月由 5 萬元調高至 5 萬 4,000 元；原住民族地區由 6 萬元調高至 6 萬 4,800 元。115-07 至 12 月新增經費約 3 億元，由中央追加預算及特別統籌稅款支應。116-01-01 起再隨軍公教待遇調增 4%。★ 這是法定標準，不是各村里長的實際支用明細。",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "per_person": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-007",
+      "vertical": "official_expense",
+      "title": "議員助理補助費（115-07-01 調增後每人每月總額）",
+      "person": "直轄市及縣（市）議員",
+      "role": "議員助理（約 3,328 人）",
+      "expense_type": "議員助理補助費",
+      "amount": 336880,
+      "fiscal_year": 2026,
+      "source_url": "https://www.moi.gov.tw/news_content.aspx?n=2&sms=9009&s=340743",
+      "source_note": "內政部 115-09-05 新聞稿（依「地方民意代表費用支給及村里長事務補助費補助條例」）",
+      "note": "自 115-07-01 起，議員助理補助費依比例調增約 4.65%，並加計一名辦公室主管每月 2,000 元：直轄市議員助理費總額每人每月由 32 萬元調高至 33 萬 6,880 元；縣（市）議員由 16 萬元調高至 16 萬 9,440 元（此列以直轄市計）。116-01-01 起再隨軍公教待遇調增 4%。★ 這是補助費總額上限，非逐名助理薪資明細。",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "actual_spending": "NOT_PUBLISHED",
+        "per_assistant": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-008",
+      "vertical": "official_expense",
+      "title": "議員出國考察費（法定標準 vs 逐次考察紀錄）",
+      "person": "直轄市及縣（市）議員",
+      "role": "地方民意代表",
+      "expense_type": "出國考察費",
+      "amount": 150000,
+      "fiscal_year": 2026,
+      "source_url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020039",
+      "source_note": "地方民意代表費用支給及村里長事務補助費補助條例附表（全國法規資料庫）",
+      "note": "【法定標準】直轄市議員每年 15 萬元、縣（市）議員每年 10 萬元（此列以直轄市計）。【缺口】這是「每年可支領上限」，不是實際出國次數、目的地、經費明細——逐次考察紀錄（誰、何時、去哪、花多少）政府未公開。★ 本平台查不到逐次紀錄，標 NOT_PUBLISHED（政府未公開），不是確認不存在。",
+      "data_status": {
+        "statutory_rate": "PUBLISHED",
+        "trip_records": "NOT_PUBLISHED",
+        "per_trip_cost": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_council",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-009",
+      "vertical": "official_expense",
+      "title": "部會首長出國考察費（出國報告公開、逐筆費用未公開）",
+      "person": "中央部會首長及所屬機關首長",
+      "role": "政務首長",
+      "expense_type": "出國考察費",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://report.ndc.gov.tw/ReportFront/",
+      "source_note": "公務出國報告資訊網（國發會）https://report.ndc.gov.tw/ReportFront/；本平台測試：舊網域 report.nat.gov.tw 未解析，report.ndc.gov.tw 實測 200",
+      "note": "【已公開】公務出國報告上網：出國目的、行程、考察內容可查；各機關預算書也編列出國旅費總額。【缺口】單次出國的「逐筆費用明細」（機票、住宿、雜費）未統一公開；報告是否附經費概況不一致。★ 出國報告量能公開，但「每一趟花多少錢」沒有統一的結構化公開。",
+      "data_status": {
+        "official_reports": "PUBLISHED",
+        "budget_total": "PUBLISHED",
+        "per_trip_cost": "PARTIAL",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-010",
+      "vertical": "official_expense",
+      "title": "立法委員出國考察費（預算編列、逐人紀錄未見公開）",
+      "person": "全體立法委員",
+      "role": "立法委員",
+      "expense_type": "出國考察費",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://report.ndc.gov.tw/ReportFront/",
+      "source_note": "公務出國報告資訊網（國發會）https://report.ndc.gov.tw/ReportFront/；本平台測試：舊網域 report.nat.gov.tw 未解析，report.ndc.gov.tw 實測 200",
+      "note": "立委出國考察經費編列於立法院預算；出國報告可於公務出國報告資訊網查詢（若機關上傳）。【缺口】逐位立委的實際出國次數、目的地、經費明細未見公開；與「問政業務費」總額相同，只有總體、沒有逐人。★ 本平台查不到逐人紀錄，標 NOT_PUBLISHED（政府未公開）。",
+      "data_status": {
+        "official_reports": "PARTIAL",
+        "budget_total": "PUBLISHED",
+        "per_member_records": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-011",
+      "vertical": "official_expense",
+      "title": "縣市首長出國考察費（預算公開、逐次明細未見公開）",
+      "person": "直轄市長及縣（市）長",
+      "role": "地方首長",
+      "expense_type": "出國考察費",
+      "amount": null,
+      "fiscal_year": 2026,
+      "source_url": "https://report.ndc.gov.tw/ReportFront/",
+      "source_note": "公務出國報告資訊網（國發會）https://report.ndc.gov.tw/ReportFront/；本平台測試：舊網域 report.nat.gov.tw 未解析，report.ndc.gov.tw 實測 200",
+      "note": "縣市首長出國考察經費編列於地方預算書（總額公開）；出國報告若上傳可於公務出國報告資訊網查詢。【缺口】單次出國的經費明細（機票、住宿、隨行人員費用）未統一公開；各縣市做法不一（部分縣市將出國考察紀錄列為議會質詢焦點——如 2026-08 苗栗市、台中市案例）。★ 各縣市差異大，本平台以「公開程度」標記，不做縣市排名。",
+      "data_status": {
+        "official_reports": "PARTIAL",
+        "budget_total": "PUBLISHED",
+        "per_trip_cost": "NOT_PUBLISHED",
+        "receipts": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "exp-012",
+      "vertical": "official_expense",
+      "title": "臺東縣政府出國考察糾正案（財政困難仍耗費公帑）",
+      "person": "臺東縣政府",
+      "role": "縣政府（縣長及所屬）",
+      "expense_type": "出國考察費",
+      "amount": null,
+      "fiscal_year": null,
+      "source_url": "https://www-ws.cy.gov.tw/Download.ashx?u=LzAwMS9VcGxvYWQvQ3lPbGRGaWxlL09wX1VwbG9hZC9lRG9jL%2bWFrOWgsS85OS8wOTkwMDAwMzAyNzEzKOWFqCkucGRm&n=MDk5MDAwMDMwMjcxMyjlhagpLnBkZg%3d%3d&icon=..pdf",
+      "source_note": "監察院糾正案之檢討情形（PDF，民國 99 年函復；內政部函報臺東縣政府檢討及具體改進情形）",
+      "note": "監察院曾糾正：臺東縣政府近 3 年來財政困難，仍耗費公帑出國考察，且未依規定審核出國計畫及經費核銷，均有違失；內政部函報臺東縣政府檢討情形。★ 逐次考察紀錄與核銷明細未見公開。",
+      "data_status": {
+        "official_correction": "PUBLISHED",
+        "trip_records": "NOT_PUBLISHED",
+        "reimbursement_records": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "臺東縣",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "pcc-hcball-2026-01",
+      "vertical": "procurement",
+      "title": "新竹市立棒球場新建統包工程",
+      "agency": "新竹市政府、運動部",
+      "awarded_amount": 876431580,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "111-07-22 未驗收即辦職棒開幕賽",
+      "source_url": "https://www.setn.com/news/1874097",
+      "source_note": "監察院 2026-07-17 糾正案（中央社報導）",
+      "note": "★ 監察院糾正新竹市府與運動部，列出多重違失。【經費】105 年向教育部體育署申請 3 億 5,300 萬元全額補助；106 年核定興整建計畫經費 8 億 7,643 萬 1,580 元，中央補助 70%。【違失 1】工程實際進度 99.913%，卻未依政府採購法與契約辦理「部分驗收」或「分段查驗」，僅辦 5 場空間點交會議且監辦單位未參與，即於 111-07-22 辦職棒開幕賽，發生球員受傷事件。【違失 2】統包商巨佳公司未達契約效能標準：球場未能於 30 分鐘內排水、未清除表土層中直徑大於 3 公分之石礫與混凝土塊；★ 球場覆土下方地下停車場實際覆土厚度超過結構分析許可重量，斷面強度未達規範安全程度。【違失 3】專案管理（含監造）廠商艾奕康未嚴格把關，球員受傷後爭議延宕，★ 球場迄今仍無法正常營運使用。【違失 4】★ 球員兼裁判：艾奕康 110-03-19 第 6 次提送修正監造計畫，同月 23 日自行核定，市府同月 26 日同意備查 —— 形同自己審查核定自己辦理的監造計畫。【違失 5】違反建築法第 13 條：讓不具「開業建築師」資格的艾奕康公司得標。【違失 6】減項發包時錯誤引用法條，衍生工程會函頒的「政府採購法第 22 條第 1 項各款執行錯誤態樣」。【究責】相關刑事案件由新竹地檢署偵辦中，行政責任待偵辦結果再處理。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "budget_approved": "PUBLISHED",
+        "official_correction": "PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "acceptance_record": "NOT_PUBLISHED",
+        "current_operation_status": "PARTIAL"
+      },
+      "gov_level": "local_gov",
+      "county": "新竹市",
+      "map_query": "新竹市立棒球場",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03",
+      "funding": {
+        "budget": null,
+        "award": 876431580,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "pcc-moe-2024-01",
+      "vertical": "procurement",
+      "title": "專科學校課程教室暨演藝廳新建工程（委託臺中市政府代辦）",
+      "agency": "教育部（委託臺中市政府教育局代辦）",
+      "awarded_amount": 136960000,
+      "contract_change": null,
+      "currency": "TWD",
+      "duration": "109-09 發包、111-11-29 驗收合格",
+      "source_url": "https://auditreport.audit.gov.tw/",
+      "source_note": "審計部中央政府總決算審核報告",
+      "note": "審計部指出：規劃設置 11 間專科課程教室並於二樓設演藝廳，完成規劃設計後委託臺中市政府教育局代辦工程興建，109 年 9 月完成工程發包，★ 決標金額 1 億 3,696 萬元，111 年 11 月 29 日驗收合格，結算金額另行審核。★ 本平台標記此案的原因：決標金額與結算金額是本平台最想追蹤的兩個數字，但結算金額未在報告中完整揭露。",
+      "data_status": {
+        "award_notice": "PUBLISHED",
+        "contract_amount": "PUBLISHED",
+        "settlement_amount": "NOT_PUBLISHED",
+        "contract_change": "NOT_PUBLISHED",
+        "acceptance_record": "PARTIAL"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null,
+      "funding": {
+        "budget": null,
+        "award": 136960000,
+        "contract": null,
+        "paid": null,
+        "settlement": null
+      }
+    },
+    {
+      "id": "fd-001",
+      "vertical": "food_drug_safety",
+      "title": "市售蘿蔔糕「沒蘿蔔」：標示稽查流於形式（監察院調查）",
+      "agency": "衛生福利部食品藥物管理署",
+      "product": "市售蘿蔔糕及修飾澱粉",
+      "finding": "含量標示規範未訂定；修飾澱粉限量規定無檢驗方法",
+      "report_date": "2026-07-22",
+      "source_url": "https://www.cy.gov.tw/News_Content.aspx?n=125&sms=8912&s=37798",
+      "source_note": "監察院新聞稿 115-07-31（調查委員：田秋堇；社福衛環委員會 115-07-22 通過調查報告，要求相關機關檢討改進；調查報告：https://www.cy.gov.tw/CyBsBoxContent.aspx?n=133&s=49764）",
+      "note": "監察院調查：部分市售蘿蔔糕以玉米澱粉、修飾澱粉及添加物製成、甚至不含蘿蔔，食藥署未研議訂定蘿蔔含量標示規範；110 年至 115-06-30 抽查 1,028 件次，均僅以「文字核對」品名與成分欄位即表示稽查符合規定，未赴製造廠稽查實際投料。修飾澱粉：衛福部自 97-11-20 已規範辛烯基丁二酸鋁澱粉等 3 項使用限量，但食藥署迄今未建立檢驗方法，限量規範形同虛設。對照先例：米粉、果蔬汁、乳品均已有「含量」標示規範；日本食品表示法、歐盟 QUID 亦有定量標示制度。健康風險（報告引述）：磷酸澱粉含磷酸鹽，與慢性腎病風險相關（USRDS 2025 數據：台灣末期腎病盛行率世界第一）；醋酸澱粉屬高升糖指數食物。★ 本案是「調查報告要求檢討改進」，不是糾正案文。",
+      "data_status": {
+        "investigation_report": "PUBLISHED",
+        "radish_content_rule": "NOT_PUBLISHED",
+        "modified_starch_test_method": "NOT_PUBLISHED",
+        "inspection_records": "PARTIAL"
+      },
+      "gov_level": "central",
+      "county": null,
+      "media_links": [
+        {
+          "label": "TVBS：「蘿蔔糕沒有蘿蔔」恐傷腎！食藥署未確實稽查 監察院怒開轟",
+          "url": "https://news.tvbs.com.tw/life/4000172",
+          "type": "news"
+        }
+      ],
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "fd-002",
+      "vertical": "food_drug_safety",
+      "title": "彰化芬普尼毒雞蛋：5 萬顆問題蛋流入市面（監察院調查）",
+      "agency": "彰化縣政府（衛生局、動物防疫所）；農業部、衛福部",
+      "product": "芬普尼殘留雞蛋",
+      "finding": "移動管制解除過早；農藥取得管控不足；末端抽驗比例過低",
+      "report_date": "2026-07-04",
+      "source_url": "https://multimedia.cy.gov.tw/News_Content.aspx?n=125&sms=8912&s=37689",
+      "source_note": "監察院新聞稿 115-07-04（調查委員：田秋堇、張菊芳、蔡崇義；財政及經濟委員會通過調查報告，要求行政院督促農業部、衛福部、彰化縣政府檢討改進；調查報告 PDF：https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/74443）",
+      "note": "2025-11 彰化縣爆發芬普尼雞蛋事件。彰化縣衛生局 2025-10-27 在市場端抽驗洗選蛋，11-04 驗出芬普尼代謝物 0.03ppm（法規容許標準 0.01ppm），追查來源指向轄內畜牧場；彰化縣防疫所在污染來源未釐清前，僅因畜牧場採樣未檢出即認定管制要件消滅並解除移動管制，案例場趁 1 天管制空窗售出 5 萬多顆違規雞蛋。農藥管理漏洞：畜牧場負責人曾具農民身分，購得不得用於畜牧場的芬普尼；原販售農藥行多年前歇業，縣府難以追查來源。抽驗比例：國內年產蛋 80 億至 88 億顆，末端抽驗僅約 5,000 餘顆。台灣在 2017、2019、2025 年三度發生芬普尼雞蛋事件。★ 媒體轉述：FTNN 2026-07-04（https://www.ftnn.com.tw/news/558359）。本案為「調查報告要求檢討改進」，非糾正案文。",
+      "data_status": {
+        "investigation_report": "PUBLISHED",
+        "movement_control_rules": "NOT_PUBLISHED",
+        "pesticide_traceability": "NOT_PUBLISHED",
+        "sampling_statistics": "PARTIAL"
+      },
+      "gov_level": "local_gov",
+      "county": "彰化縣",
+      "media_links": [
+        {
+          "label": "FTNN：彰化芬普尼毒雞蛋調查出爐！5 萬顆問題蛋流入市面 監院點名 3 單位",
+          "url": "https://www.ftnn.com.tw/news/558359",
+          "type": "news"
+        }
+      ],
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "env-001",
+      "vertical": "environment_governance",
+      "title": "雲林縣農地遭非法棄置事業廢棄物（5 處未清理）",
+      "agency": "雲林縣環境保護局",
+      "site": "雲林縣 5 地段、14 筆地號（9 處列管）",
+      "finding": "5 處迄未完成清理（含 2 處有害事業廢棄物）；未追蹤去化流向；未依規定登錄 WDMS",
+      "report_date": "2026-07-22",
+      "source_url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/76554",
+      "source_note": "監察院調查報告《雲林縣農地遭非法棄置事業廢棄物案》（調查委員：蔡崇義、王幼玲；社福及衛環委員會；115-07-22）",
+      "note": "監察院調查發現：不法業者以「免費提供土方」為餌騙取／租用農地，非法回填營建混合物與有害事業廢棄物。遭棄置區域共 5 地段、14 筆地號，雲林縣政府列管 9 處，其中 5 處迄未完成清理（含 2 處有害事業廢棄物）；單一地號棄置量最高達 5,709.87 公噸。【怠失】雲林縣環保局未積極要求污染行為人清理，以「行為人服監中，將追蹤辦理」推託；已完成清理場址未追蹤去化流向；未依「廢棄物非法棄置案件追蹤列管及解除列管原則」登錄「廢棄物棄置案件管理系統（WDMS）」，遲至 115-06-12 才補登錄。★ 本平台整理自監察院調查報告；場址清理進度與去化流向未以開放資料公開。",
+      "data_status": {
+        "investigation_report": "PUBLISHED",
+        "site_registry": "PARTIAL",
+        "cleanup_progress": "NOT_PUBLISHED",
+        "waste_flow_tracking": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "雲林縣",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "env-002",
+      "vertical": "environment_governance",
+      "title": "臺南光電「小二甲」案：監察院糾正能源署與南市府、彈劾 3 人",
+      "agency": "經濟部能源署、臺南市政府經濟發展局",
+      "site": "臺南市光電案場（「小二甲」：2 公頃以下農地變更）",
+      "finding": "不實及不符規定之光電申設案件；審查與監督缺失；3 名官員遭彈劾送懲戒",
+      "report_date": "2025-02（彈劾）",
+      "source_url": "https://multimedia.cy.gov.tw/News_Content.aspx?n=795&s=32628",
+      "source_note": "監察院新聞稿：對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府",
+      "note": "監察院調查「臺南光電小二甲案」：2025-02 通過對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府，督促行政院全面檢討清查不實及不符規定之光電申設案件、審慎處理爭議案場。「小二甲」指 2 公頃以下農地變更作光電使用。★ 媒體：中央社 2025-02-26（https://www.cna.com.tw/news/afe/202502260236.aspx）；中時 2025-10-21 報導「監委提光電 7 問題」。★ 光電板廢棄物回收制度與案場環境監測資料，未見系統性公開。",
+      "data_status": {
+        "investigation_report": "PUBLISHED",
+        "site_registry": "PARTIAL",
+        "waste_recycling_rules": "NOT_PUBLISHED",
+        "environmental_monitoring": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "env-003",
+      "vertical": "environment_governance",
+      "title": "營建剩餘土石方管理缺失：監察院糾正行政院與內政部",
+      "agency": "行政院、內政部",
+      "site": "全國（營建剩餘土石方流向與非法棄置／掩埋）",
+      "finding": "土方流向管理缺失、非法棄置與掩埋",
+      "report_date": "2025-03",
+      "source_url": "https://news.cts.com.tw/cna/politics/202503/202503182449639.html",
+      "source_note": "中央社（華視轉載）2025-03-18：營建剩餘土石方管理缺失，監察院糾正行政院與內政部",
+      "note": "監察院 2025-03 糾正行政院與內政部：營建剩餘土石方管理缺失，包括流向管理與非法棄置（掩埋）問題。★ 本筆目前以媒體轉述為來源，監察院案號待補；土方流向、場址清冊與清理進度未以開放資料公開。",
+      "data_status": {
+        "official_correction": "PUBLISHED",
+        "soil_flow_tracking": "NOT_PUBLISHED",
+        "site_registry": "NOT_PUBLISHED",
+        "cleanup_progress": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "media_links": [
+        {
+          "label": "中央社：營建剩餘土石方管理缺失 監院糾正政院與內政部",
+          "url": "https://news.cts.com.tw/cna/politics/202503/202503182449639.html",
+          "type": "news"
+        }
+      ],
+      "event_status": "PUBLISHED",
+      "discovery_date": "2026-11-02",
+      "follow_up_date": null
+    },
+    {
+      "id": "env-004",
+      "vertical": "environment_governance",
+      "title": "台南營建廢棄物掩埋集團：檢起訴 102 人、27 家公司",
+      "agency": "臺南地檢署、臺南市政府環境保護局",
+      "site": "臺南市 8 區（魚塭、農地），面積約 40 個足球場",
+      "finding": "不法獲利約 2,865 萬元；起訴 102 人、27 家公司（尚未判決確定）",
+      "report_date": "2026-01-22",
+      "source_url": "https://www.cna.com.tw/news/asoc/202601220061.aspx",
+      "source_note": "中央社 2026-01-22：台南 8 區遭棄置營建廢棄物，檢起訴 102 人、27 家公司",
+      "note": "臺南地檢署偵辦營建廢棄物非法棄置／掩埋集團：起訴 102 人、27 家公司，不法獲利約 2,865 萬元；棄置範圍橫跨臺南 8 區，面積約 40 個足球場（魚塭、農地）。案件追查約 2 年；承辦檢察官林昆璋獲金環獎（ETtoday 2026-11-03，該站憑證本平台無法驗證）。★ 本案已起訴、尚未判決確定；起訴書全文未公開，本筆以媒體轉述為來源——查到起訴事實，不等於確認犯罪（鐵律 ②④）。★ 原始影片：民視新聞「台南掩埋集團涉不法牟利2865萬 橫跨27公司遭起訴」。",
+      "data_status": {
+        "indictment_news": "PARTIAL",
+        "court_judgment": "NOT_PUBLISHED",
+        "site_registry": "PARTIAL",
+        "illegal_profit": "PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "臺南市",
+      "media_links": [
+        {
+          "label": "民視新聞：台南掩埋集團涉不法牟利 2865 萬 橫跨 27 公司遭起訴（YouTube）",
+          "url": "https://www.youtube.com/watch?v=OIryR6x45_c",
+          "type": "video"
+        },
+        {
+          "label": "中央社：台南 8 區遭棄置營建廢棄物 檢起訴 102 人、27 家公司",
+          "url": "https://www.cna.com.tw/news/asoc/202601220061.aspx",
+          "type": "news"
+        }
+      ],
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-03",
+      "follow_up_date": "2026-12-03"
+    }
+  ],
+  "councils": {
+    "_comment": "各縣市議會「議員出國考察報告」公開情形（站長 2026-11-02 起逐縣市查證）",
+    "updated_at": "2026-11-02",
+    "rows": [
+      {
+        "city": "嘉義市",
+        "status": "published",
+        "detail": "議員出國考察報告專區（多份 PDF）",
+        "url": "https://www.cycc.gov.tw/web/Download_file/listDownload_file.aspx?c0=3650",
+        "note": "網站存在且有專區；但網域憑證本平台無法驗證，連結有效性待複查",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "新竹市",
+        "status": "published",
+        "detail": "議員出國考察報告（單份 PDF 可下載）",
+        "url": "https://www.hsinchu-cc.gov.tw/upload/50/54364524114%E5%B9%B4%E4%B9%9D%E5%AF%A8%E6%BA%9D%E3%80%81%E5%B3%A8%E5%B5%8B%E5%B1%B1%E8%80%83%E5%AF%9F0625.pdf",
+        "note": "PDF 實測 HTTP 200",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "臺北市",
+        "status": "partial",
+        "detail": "臺北市資料大平臺有「議長中南歐友好訪問團」資料集；是否涵蓋全部議員待查",
+        "url": "https://data.taipei/dataset/detail?id=29f494d0-a68a-4db2-af18-b3af8e80385c",
+        "note": "實測 HTTP 200；僅見特定出訪團",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "新北市",
+        "status": "unverified",
+        "detail": "2018 媒體報導：議員出國報告「有寫但沒公開」",
+        "url": "https://news.ltn.com.tw/news/politics/breakingnews/2564510",
+        "note": "現況待查證（不要用 2018 報導當現況）",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "臺中市",
+        "status": "unverified",
+        "detail": "2018 媒體報導：議員出國考察報告不公開",
+        "url": "https://news.ltn.com.tw/news/Taichung/breakingnews/2491936",
+        "note": "現況待查證",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "臺南市",
+        "status": "published",
+        "detail": "議政資訊公告有「113 年泰國清邁交流參訪出國報告」等出國報告",
+        "url": "https://www.tncc.gov.tw/warehouse/C0D31EC9-0B4B-40A8-927C-A4707753CBFA/FFF54B18-551C-44F6-9B02-5FB40B81DFC8.pdf",
+        "note": "PDF 實測 HTTP 200",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "基隆市",
+        "status": "published",
+        "detail": "人事專區公開「108 年公務出國報告彙整表」",
+        "url": "https://www.kmc.gov.tw/index.php/files/121/%e4%ba%ba%e4%ba%8b%e5%b0%88%e5%8d%80/115/108pdf.pdf",
+        "note": "PDF 實測 HTTP 200（資料年度 108）",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "彰化縣",
+        "status": "published",
+        "detail": "議員資訊頁有出國報告；另有「赴新加坡馬來西亞城市交流參訪」報告 PDF",
+        "url": "https://www.chcc.gov.tw/report/index.aspx?Parser=99,6,44,,,,,,,,17",
+        "note": "議員資訊頁與 PDF（實測 200）",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "苗栗縣",
+        "status": "published",
+        "detail": "議會公告與出國報告；「112 年度出國報告」PDF 可下載",
+        "url": "https://www.mcc.gov.tw/admin/upload/twgov_file_202311231645351.pdf",
+        "note": "PDF 實測 HTTP 200",
+        "checked": "2026-11-02"
+      },
+      {
+        "city": "花蓮縣",
+        "status": "published",
+        "detail": "議會官網有出國報告 PDF",
+        "url": "https://www.hlcc.gov.tw/upfile/20200929112131-164.pdf",
+        "note": "網站憑證本平台無法驗證（連結存在但待複查）",
+        "checked": "2026-11-02"
+      }
+    ],
+    "pending": [
+      "桃園市",
+      "高雄市",
+      "新竹縣",
+      "南投縣",
+      "雲林縣",
+      "嘉義縣",
+      "屏東縣",
+      "宜蘭縣",
+      "臺東縣",
+      "澎湖縣",
+      "金門縣",
+      "連江縣"
+    ]
+  }
+}

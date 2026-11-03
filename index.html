@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="讓每一筆公共支出都留下紀錄　Every public expense leaves a trace.">
+<title>全民監督（CivicLens Taiwan）— 讓每一筆公共支出都留下紀錄</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="margin:0;padding:.6rem 1rem;background:#1e293b;color:#f8fafc;
+font:14px/1.5 system-ui,sans-serif;text-align:center">
+這是 <b>靜態備援鏡像</b>（GitHub Pages）。搜尋、瀏覽、下載可用；
+投稿與即時資料請回主站 <a href="https://watchtw.pages.dev" style="color:#7dd3fc">watchtw.pages.dev</a>
+</div>
+<header>
+  <h1>全民監督 <span class="en">CivicLens Taiwan</span></h1>
+  <p class="tagline">讓每一筆公共支出都留下紀錄</p>
+  <p class="tagline en">Every public expense leaves a trace.</p>
+</header>
+
+<section class="headline">
+  <p class="hl-label">工程追加預算的可查證性</p>
+  <div class="hl-row">
+    <div class="hl-cell">
+      <b class="hl-number">15</b>
+      <span>已收錄工程案</span>
+    </div>
+    <div class="hl-cell">
+      <b class="hl-number hl-ok">3</b>
+      <span>查得到追加金額</span>
+    </div>
+    <div class="hl-cell">
+      <b class="hl-number hl-gap">12</b>
+      <span>★ 查不到</span>
+    </div>
+  </div>
+  <p class="hl-big">可查證率 20%</p>
+  <p class="hl-note">
+    3 案查到的追加金額合計 <b>NT$ 19.01 億元</b>
+    —— 但那只是「查得到的那 3 案」。<br>
+    ★ 全部取自監察院糾正案文與審計部審核報告，非本平台推估。「減項」另計。
+  </p>
+</section>
+
+<section class="stats">
+  <div class="stat"><b>42</b><span>已收錄條目</span></div>
+  <div class="stat"><b>85</b><span>★ 政府未公開欄位</span></div>
+  <div class="stat"><b>175</b><span>已檢查欄位</span></div>
+  <div class="stat"><b>49%</b><span>未公開比率</span></div>
+</section>
+
+<section class="principles">
+  <h2>我們怎麼做</h2>
+  <ol><li>資料拿不到，就把「拿不到」記錄下來</li><li>只記錄觀察，不判斷對錯</li><li>政府可以回應，回應本身也是紀錄</li></ol>
+</section>
+
+<section class="principles">
+  <h2>搜尋條目</h2>
+  <p class="hint">輸入關鍵字即時過濾，或依行政層級篩選（比對案名、機關、縣市、內容說明）：</p>
+  <div id="level-filter" class="level-filter">
+    <button type="button" data-level="" class="active">全部</button>
+    <button type="button" data-level="central">中央</button>
+    <button type="button" data-level="local_gov">縣市政府</button>
+    <button type="button" data-level="local_council">縣市議會</button>
+  </div>
+  <input id="search-input" type="search" placeholder="例：監察院、中油、村里長、彰化…" aria-label="搜尋條目">
+  <p id="search-count" class="hint" hidden></p>
+</section>
+
+<main class="cards"><section class="card">
+      <h2>工程招標<span class="en">Procurement</span></h2>
+      <p class="desc">中央與地方政府的工程採購標案，追蹤決標金額與追加預算。</p>
+      <p class="note">契約變更（追加預算）目前政府未以開放資料提供。★ 本平台改以「監察院糾正案」與「審計部審核報告」補位 —— 那些文件會寫出追加金額，但不含每一筆標案的完整變更紀錄。</p>
+      <ul class="entity-list"><li class="entity-item" data-search="嘉義縣擴大縣治污水處理廠新建工程暨操作營運 嘉義縣政府 嘉義縣 監察院糾正：採購評選逾越法定權限，將非屬評選項目的廠商建議工程變更（含追加）方案於評定最有利標時作成同意研辦決議。工程經費增加 9,762 萬餘元、工期展延 226 天。另因未按核定計畫推估污水量、超量設計，仲裁判給 25 元/噸操作費（契約 8 元/噸的 3 倍餘），額外增加操作營運費用約 2,818 萬餘元；草率同意不符契約的試車計畫、提早 7 個月驗收，多付 5 個月試車費 1,057 萬餘元；逾契約期限仍營運 4 個月，增加 336 萬餘元。" data-level="local_gov">
+          <a href="entity/pcc-cy-2014-01.html">嘉義縣擴大縣治污水處理廠新建工程暨操作營運</a>
+          <span class="badge lv">縣市政府·嘉義縣</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="國立臺灣師範大學美術館與多功能活動中心新建工程 國立臺灣師範大學 審計部指出：總經費 3 億 6,052 萬餘元。設計監造採購案決標 3 個月後，大幅度變更建築物外觀及空間需求，未審慎評估使用需求規劃即辦理。" data-level="central">
+          <a href="entity/pcc-ntnu-2021-01.html">國立臺灣師範大學美術館與多功能活動中心新建工程</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="北宜高鐵計畫（監察院列 5 項調查意見） 交通部 監察院調查報告列 5 項調查意見：①未先提出可行性研究即進行綜合規劃，不符公共建設規劃常態；②委外辦理綜合規劃勞務採購過程，隱含現行法令不周延及規劃評估者角色衝突疑慮；③民眾參與、民意溝通及社會對話明顯不足；④大規模劃設 420 公頃車站特定區，缺乏立論基礎，且有過度轉用優良農地與徵收民地之虞；⑤路線與車站特定區未一併辦理個案環評，且漏未先實施政策環評。（媒體摘要為「6 大缺失」）【技術服務契約】台灣世曦承辦本計畫技術服務 10 年（自 102 年委託「臺鐵南港至花蓮提速改善計畫綜合規劃暨基本設計技術服務工作」），歷經 9 次契約變更，金額追加至 1.3 億元，且未辦理任何驗收即累計請款 28 次。【經費】案由載工程經費 3,650 億元；報告引 114 年 6 月估算興建經費 3,521.75 億元；監察院啟動調查新聞稿載「預估直接工程經費 3,521.8 億元」。【進度】行政院 115-07-23 院會核定「高鐵延伸宜蘭計畫」（交通部新聞稿 115-07-24：https://www.motc.gov.tw/ch/app/news_list/view?module=news&amp;id=14&amp;serno=d2a41d09-e4f1-4481-86a5-b43b93065474）；114-08-20 環評審查通過。★ 同新聞稿：鐵道局回應監察院調查「與事實不符」，稱監察院未認定違法違失、僅就法制面與政策溝通提出建議；並載抽樣調查 95% 信心水準下 79.6% 支持。★ 新聞轉述：ETtoday 2026-05-12（https://www.ettoday.net/news/20260512/3164508.htm）；中央社 2026-05-12。★ 案號：115交調0004（監察院成果檢索頁：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&amp;s=49567）。案件狀態：機關檢討改善情形，仍須持續定期追蹤。" data-level="central">
+          <a href="entity/pcc-twsh-2026-01.html">北宜高鐵計畫（監察院列 5 項調查意見）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="中油 M11001 大林廠超低硫燃料油及改質瀝青生產中心投資計畫（停辦） 台灣中油股份有限公司（主管機關：經濟部） 監察院認定中油辦理本投資計畫核有疏失並提案糾正。【投資總額】108 年可行性研究規劃 70.18 億餘元，經濟部 109-03-26 同意照辦。【報價爆增】原核定 37.26 億元興建之真空蒸餾與溶劑脫柏油 2 工場，111-10 廠商報價高達 89.95 億元（+141.38%，增加 52.69 億），當時營建工程物價指數 3 年已漲 21.46%；中油未即時因應、未向董事會說明超出預算籌資來源、未報經濟部修正計畫。【區外工程】112-03-15「大林廠 H2 區新建儲槽及灌裝場統包工程」以 48.89 億餘元決標（本計畫與減苯計畫各占 50%），其中屬本計畫部分 24.44 億餘元，較原核定 14.9 億餘元增加 9.54 億（+63.98%）。【停辦與損失】112-01 起歷 2 年十餘次修正會議，總經費數字在 89.78–150.77 億元間反覆；114-01-20 董事會通過停辦，中油 114-02-17 函報投資損失 11.55 億元（瀝青 6.8 億＋基本設計 1.87 億＋行政管理 0.59 億＋20% 不確定性＋公共藝術 0.44 億），經檢討可再利用設備後，實際認列損失 2.795 億元（改質瀝青套裝設備 0.925 億＋基本設計費 1.87 億）。【前案】監察院前於 108-10、110-08 就中油投資欠缺警覺／停辦損失分別函請檢討改進與糾正。★ 成果檢索頁：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&amp;s=49593；糾正案文：https://multimedia.cy.gov.tw/CyBsBoxContent2.aspx?n=718&amp;s=49518。案件狀態：已結案。" data-level="central">
+          <a href="entity/pcc-cpc-m11001-2026-01.html">中油 M11001 大林廠超低硫燃料油及改質瀝青生產中心投資計畫（停辦）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">1 項未公開</span>
+        </li><li class="entity-item" data-search="海洋委員會合署辦公廳舍新建工程（計畫經費調增近 8 億） 海洋委員會 行政院 2020-02 核定「海洋委員會、海洋保育署暨國家海洋研究院合署辦公廳舍新建工程中長程個案計畫」，總經費近 7.9 億元（前棟地下 2 層地上 8 層、後棟地下 2 層地上 7 層）。因建築材料成本大幅上漲、增加開挖前置保護性假設工程、基地開挖後遇地下廢棄物及含油土壤，海委會 2 次報經行政院核定修正計畫，調增經費至 15 億 9,700 多萬元，完工展延至 2028-06。審計部檢討：規劃設計階段對工址地質調查未詳實，致施工廠商須增加開挖前置保護性假設工程；未及時修正經費與期程；預算執行填報未確實，要求檢討改進。海委會回覆：依政府採購法及契約規定逐項檢討責任歸屬、辦理扣罰作業。★ 本筆為計畫層級調增（非單一契約變更）；各標案契約變更明細未見公開。" data-level="central">
+          <a href="entity/pcc-oac-2024-01.html">海洋委員會合署辦公廳舍新建工程（計畫經費調增近 8 億）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="八德外役監獄新建首座智慧監獄工程（嚴重延宕、巨量驗收缺失） 法務部矯正署暨八德外役監獄 行政院 106-08-09 核定「法務部矯正署八德外役監獄新(擴)建工程中長程個案計畫」，總經費 27 億餘元，歷 4 次修正計畫增加至 28 億餘元（★ 精確調增金額未公開，故不列入追加統計）。【工期】第 1、2 階段工程預定竣工日 111-03-02、111-11-09，實際 112-03-02、114-10-17 才竣工，逾期 365 日、1,073 日。【驗收缺失】至 115-01，第 1 階段 253 項、第 2 階段 4,846 項缺失；第 1 階段初驗及部分驗收缺失 2,279 項、774 項，17 次複驗耗時 2 年餘仍 16 項缺失；第 2 階段分段查驗缺失 5,400 項。【進駐】112-07-25 進駐，收容 298 人僅占全監可收容量 11.15%；至 115-01-01 才啟動全案維護保養合約。【修正】第 5 次修正計畫逾 1 年 8 個月仍未核定。★ 糾正案文 s=49530、調查報告 s=49529（監察院成果檢索）。" data-level="central">
+          <a href="entity/pcc-bade-2026-01.html">八德外役監獄新建首座智慧監獄工程（嚴重延宕、巨量驗收缺失）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="基隆旭川河／田寮河水質改善工程（未依圖施作仍驗收付款） 基隆市政府環境保護局 基隆市 監察院糾正：基隆市環保局辦理「旭川河水質改善現地處理工程」「田寮河水質改善現地處理及水環境營造工程」，施工廠商僑福公司於履約期間有多項機電設備及土建工程未依契約圖說施作、或甚至未施作；機關查驗人員未依政府採購法及採購人員倫理準則確實查驗，仍審認合格、同意結算付款。時任局長、副局長、技正等主管人員未及時發現錯誤並導正。二工程完工後無法正常使用，迄未發揮應有功能。★ 金額未見於公開案由，依鐵律 ① 不列。案件狀態：機關檢討改善情形，仍須持續定期追蹤。調查報告字號 115交調0016（公告 115-07-29）：https://www.cy.gov.tw/CyBsBoxContent.aspx?n=134&amp;s=49697（違失人員之議處，尚未確定）。" data-level="local_gov">
+          <a href="entity/pcc-keelung-river-2026-01.html">基隆旭川河／田寮河水質改善工程（未依圖施作仍驗收付款）</a>
+          <span class="badge lv">縣市政府·基隆市</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="中油煉製事業部採購弊案（冰水機案等，監察院糾正） 台灣中油股份有限公司煉製事業部 監察院糾正：中油煉製事業部辦理冰水機案等採購涉有嚴重系統性結構問題——前執行長利用職務權力撤換持不同意見之承辦主管、全然配合廠商報價致預算大幅虛增；標案公告招標前私自將辦理進度（或標案資訊）告知特定廠商使其提前備標；違法偏袒屬意廠商、勸退其他有投標意願廠商；未報主管機關釋疑即自行放寬投標廠商行業限制、未覈實審查資格；片面要求廠商配合增設工程項目設施而未依規定辦理契約變更，致標案淪為主管索賄標的；所屬人員藉洩漏應秘密標案文件收受廠商不正利益；發放貴賓證予不適格工程標案掮客自由進出探知標案資訊。重大弊案發生後，中油未依規定重辦涉案人考績。★ 金額未見於公開案由，依鐵律 ① 不列。案件狀態：機關檢討改善情形，仍須持續定期追蹤。" data-level="central">
+          <a href="entity/pcc-cpc-cp-2026-01.html">中油煉製事業部採購弊案（冰水機案等，監察院糾正）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="臺鐵電務智慧化提升計畫（16 項工程落後，監察院糾正） 交通部／國營臺灣鐵路股份有限公司 監察院糾正：臺鐵電務智慧化提升計畫原期程 106–113 年、4 項子計畫 16 項工程，僅「ATP 地上設備效能提升」如期完成，其餘皆落後，部分展延至 118 年。新型電子式遮斷機安裝案未依限完成原型機樣品測試、逾期 305 個日曆天，僅完成安裝 396 套（27.81%），安裝後至 113 年底異常達 205 次（「環境因子」91 次、占 44.39%）。中央行車控制系統（CTC）建置案因總部搬遷決策反覆耽延；規劃設計服務採購因新增需求逾原契約服務範圍而終止契約，耗費設計服務費 345 萬餘元；重新採購後內部歷 3 年 5 個月始完成審查，工程期程由 112 年延長至 118 年。★ 345 萬餘元是「契約終止之耗費」，非追加，依鐵律 ③ 不列入追加統計。案件狀態：機關檢討改善情形，仍須持續定期追蹤。" data-level="central">
+          <a href="entity/pcc-tra-smart-2026-01.html">臺鐵電務智慧化提升計畫（16 項工程落後，監察院糾正）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="金門工商休閒園區污水處理廠工程（無法取得許可、功能未發揮） 金門縣政府 金門縣 監察院糾正：金門縣政府辦理「金門工商休閒園區第一期開發區污水處理廠工程（含三年試運轉）」，未依審查通過之環境影響說明書變更內容對照表規劃設計處理功能，致無法取得水污染防治措施計畫及許可證（文件）；實際進流水量不足而無法進行功能測試，未能發揮應有污水處理量能；未能充分掌握實際維護運轉情形與處理實效；寬限廠商逾期辦理全廠設備移交、總檢查作業及檢查報告，屢未依約辦理設施點交、歸還，致移交文件與電腦資訊檔案闕如。★ 金額未見於公開案由，依鐵律 ① 不列。" data-level="local_gov">
+          <a href="entity/pcc-km-sewage-2026-01.html">金門工商休閒園區污水處理廠工程（無法取得許可、功能未發揮）</a>
+          <span class="badge lv">縣市政府·金門縣</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="南部收容所及被害人庇護安置處所興建工程 內政部移民署、內政部營建署 審計部指出：總工程經費 2 億 5,110 萬餘元，未依規定辦理先期規劃構想或可行性評估，未妥適評估業務需求及在地住民意見，審慎決定收容所興設方式、地點及收容量，致規劃期間歷經 4 次修正計畫內容。" data-level="central">
+          <a href="entity/pcc-nia-2023-01.html">南部收容所及被害人庇護安置處所興建工程</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="國立故宮博物院相關建設計畫（減項累計逾主契約 50%） 國立故宮博物院 ★ 本筆為「減項」而非「追加」。原主契約 28 億元，9 月 2 次減項累計 6 億 5,875 萬餘元，分別增為 10 億 677 萬餘元及 20 億 343 萬餘元（含原合約漏項漏量 2 億 2,030 萬餘元）。追回減項之金額已逾原主契約 28 億元之 50%，致該處尚難依政府採購法第 22 條第 1 項第 6 款限制性招標規定辦理變更設計，而需另案發包。漲幅占 112 年度中程資本支出計畫概況表所列計畫總經費 37 億 5,599 萬餘元之 53.34%。" data-level="central">
+          <a href="entity/pcc-npm-2022-01.html">國立故宮博物院相關建設計畫（減項累計逾主契約 50%）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">1 項未公開</span>
+        </li><li class="entity-item" data-search="六堆客家文化園區計畫 行政院客家委員會 審計部指出：計畫經費 17 億 5 千萬元，未依行政院審議意見修正計畫，致執行內容與審議意見有異。" data-level="central">
+          <a href="entity/pcc-hakka-2021-01.html">六堆客家文化園區計畫</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="臺灣士林看守所遷建計畫 法務部 審計部指出：計畫經費 14 億 8 千 9 百餘萬元。對於遷建計畫規劃目標，決策過程反覆不定，且未依行政院函示調降收容員額、辦理修正計畫報核，貿然改朝第二監獄規劃設計、擴增收容員額，★ 肇致延宕計畫執行期程，已投入鉅額經費興建完成之設施閒置。" data-level="central">
+          <a href="entity/pcc-moj-2021-01.html">臺灣士林看守所遷建計畫</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="新竹市立棒球場新建統包工程 新竹市政府、運動部 新竹市 ★ 監察院糾正新竹市府與運動部，列出多重違失。【經費】105 年向教育部體育署申請 3 億 5,300 萬元全額補助；106 年核定興整建計畫經費 8 億 7,643 萬 1,580 元，中央補助 70%。【違失 1】工程實際進度 99.913%，卻未依政府採購法與契約辦理「部分驗收」或「分段查驗」，僅辦 5 場空間點交會議且監辦單位未參與，即於 111-07-22 辦職棒開幕賽，發生球員受傷事件。【違失 2】統包商巨佳公司未達契約效能標準：球場未能於 30 分鐘內排水、未清除表土層中直徑大於 3 公分之石礫與混凝土塊；★ 球場覆土下方地下停車場實際覆土厚度超過結構分析許可重量，斷面強度未達規範安全程度。【違失 3】專案管理（含監造）廠商艾奕康未嚴格把關，球員受傷後爭議延宕，★ 球場迄今仍無法正常營運使用。【違失 4】★ 球員兼裁判：艾奕康 110-03-19 第 6 次提送修正監造計畫，同月 23 日自行核定，市府同月 26 日同意備查 —— 形同自己審查核定自己辦理的監造計畫。【違失 5】違反建築法第 13 條：讓不具「開業建築師」資格的艾奕康公司得標。【違失 6】減項發包時錯誤引用法條，衍生工程會函頒的「政府採購法第 22 條第 1 項各款執行錯誤態樣」。【究責】相關刑事案件由新竹地檢署偵辦中，行政責任待偵辦結果再處理。" data-level="local_gov">
+          <a href="entity/pcc-hcball-2026-01.html">新竹市立棒球場新建統包工程</a>
+          <span class="badge lv">縣市政府·新竹市</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="專科學校課程教室暨演藝廳新建工程（委託臺中市政府代辦） 教育部（委託臺中市政府教育局代辦） 審計部指出：規劃設置 11 間專科課程教室並於二樓設演藝廳，完成規劃設計後委託臺中市政府教育局代辦工程興建，109 年 9 月完成工程發包，★ 決標金額 1 億 3,696 萬元，111 年 11 月 29 日驗收合格，結算金額另行審核。★ 本平台標記此案的原因：決標金額與結算金額是本平台最想追蹤的兩個數字，但結算金額未在報告中完整揭露。" data-level="central">
+          <a href="entity/pcc-moe-2024-01.html">專科學校課程教室暨演藝廳新建工程（委託臺中市政府代辦）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li></ul>
+    </section><section class="card">
+      <h2>司法案件<span class="en">Judicial</span></h2>
+      <p class="desc">司法案件的裁判結果與資料可取得性。★ 本平台同時記錄「判決」與「取得判決的門檻」—— 因為後者也是公共資訊問題。</p>
+      <p class="note">偵查中案件不公開。裁判書需申請 API 帳號，且服務時間僅每日 0~6 時。</p>
+      <ul class="entity-list"><li class="entity-item" data-search="司法院裁判書：開放 API 的實際門檻 本平台實測結果：要取得裁判書全文，必須先在「司法院資料開放平臺」申請帳號密碼，再以 POST /jdg/api/Auth 取得 Token（有效 6 小時）。★ 而 API 服務時間限定為「每日凌晨 0 時至 6 時」，其餘時間不提供服務。這意味著：想即時追蹤司法案件的人，每天只有 6 小時的窗口。★ 本平台認為這是可改進之處 —— 不是「不公開」，而是「公開但難以使用」。" data-level="central">
+          <a href="entity/jud-access-2026-01.html">司法院裁判書：開放 API 的實際門檻</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="監察院調查報告：司法與執法相關案件（索引） 監察院的「調查報告」「糾正案文」「彈劾案文」「糾舉案文」全部公開可查，而且會寫出具體的違失事實與金額。★ 本平台認為：這是目前台灣最容易取得的「官方認定違失」資料源。相對地，司法判決的完整追蹤仍需個別申請。" data-level="central">
+          <a href="entity/jud-cy-2019-01.html">監察院調查報告：司法與執法相關案件（索引）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="司法書類公開的法定範圍：裁判書 vs 檢察書類 法院組織法 §83：各級法院及分院應定期出版公報或以其他適當方式公開裁判書；但少年事件、性侵害犯罪、家庭暴力事件、民事執行等審理不公開，或依法律規定不得公開、涉及民事執行程序保密性等案件之裁判書除外。司法院說明（93-02-13，https://jirs.judicial.gov.tw/GNNWS/NNWSS002.asp?id=923）：公開時自動遮蔽當事人姓名、年籍、地址等個人資料。★ 對照：檢察書類（起訴書、不起訴處分書）由法務部另設查詢系統（https://psue.moj.gov.tw/psiqs/index.jsp），需依案號或關鍵字個案查詢，沒有像裁判書一樣的全面刊載制度。本平台記錄這個不對稱，不下結論。" data-level="central">
+          <a href="entity/jud-003.html">司法書類公開的法定範圍：裁判書 vs 檢察書類</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">1 項未公開</span>
+        </li><li class="entity-item" data-search="偵查庭席位配置：監察院糾正（辯護權受阻） 監察院糾正：臺灣高等檢察署及所屬各級檢察署的偵查庭席位配置嚴重阻礙辯護人實施即時、有效之辯護權；該配置僅以行政規則為據，實質限制人身自由，核有違反法律保留原則。法務部經監察院行文督促改善後未積極作為，屢以「法經濟分析」「成本效益」等說詞推諉，僅發布空泛函釋搪塞，改善進度嚴重稽延、無實質成效。★ 席位配置所依據的行政規則文本，未見於公開糾正案由（標 PARTIAL＝部分公開，非不存在）。" data-level="central">
+          <a href="entity/jud-004.html">偵查庭席位配置：監察院糾正（辯護權受阻）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          
+        </li><li class="entity-item" data-search="執行死刑程序案：監察院糾正（憲法法庭判決程序未落實） 監察院糾正：法務部 114-04-16 發布修正「執行死刑規則」，草案預告期間僅 10 日（含例假日 14 日），不符行政院秘書長 112-10-23 函釋得例外縮短預告之情形，程序具有重大瑕疵；修正後第 2 條第 3、4、5 款對死刑犯提起特別救濟之權利較修正前更嚴格，與憲法法庭 113 年憲判字第 8 號判決（死刑執行程序應踐行最嚴密之正當法律程序）及公民與政治權利國際公約第 6 條保障生命權之意旨牴觸；又憲判 8 號要求執行前確認「受刑能力」，在立法者尚未修法確定程序前，法務部於 114-01-16 即准執行。★ 規則修正全文與草案預告紀錄未見於公開案由（標 PARTIAL）。本平台只記錄監察院認定，不下結論。" data-level="central">
+          <a href="entity/jud-005.html">執行死刑程序案：監察院糾正（憲法法庭判決程序未落實）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          
+        </li></ul>
+    </section><section class="card">
+      <h2>公職費用<span class="en">Official Expenses</span></h2>
+      <p class="desc">立法委員、議員、鄉鎮代表、政府首長的費用支出與人事費。★ 本平台同時記錄「法定標準」與「實際能否查到」。</p>
+      <p class="note">台灣僅公開總額，未逐人逐筆公開（日本則逐人公開）。</p>
+      <ul class="entity-list"><li class="entity-item" data-search="立法委員問政相關業務費（114 年度總額） 立法院 114 年度「委員問政業務」37 億 6,032 萬 6 千元，較 113 年度增列 1 億 1,319 萬 3 千元（+3.1%）。★ 這是總額，不是逐人明細。" data-level="central">
+          <a href="entity/exp-001.html">立法委員問政相關業務費（114 年度總額）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="直轄市議員法定支給標準（每人每年） 為民服務費 40,000×12 + 出國考察費 150,000 + 健康檢查費 16,000 + 保險費 15,000 = 651,000；扣除重複計算後為 635,000" data-level="local_council">
+          <a href="entity/exp-002.html">直轄市議員法定支給標準（每人每年）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="縣（市）議員法定支給標準（每人每年） 為民服務費 20,000×12 + 出國考察費 100,000 + 健康檢查費 16,000 + 保險費 15,000 = 371,000" data-level="local_council">
+          <a href="entity/exp-003.html">縣（市）議員法定支給標準（每人每年）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="鄉（鎮、市）民代表法定支給標準（每人每年） 為民服務費 5,000×12 + 出國考察費 50,000 + 健康檢查費 16,000 + 保險費 15,000 = 141,000" data-level="local_council">
+          <a href="entity/exp-004.html">鄉（鎮、市）民代表法定支給標準（每人每年）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="議長／副議長特別費（每月） 議長 200,000／月、副議長 140,000／月（此列以議長計，年 2,400,000）；縣市議長 88,000／月、副議長 44,000／月" data-level="local_council">
+          <a href="entity/exp-005.html">議長／副議長特別費（每月）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="總統月俸：2,700 點（折算金額由行政院定之） 條例第四條明定：總統之月俸，按 2,700 點計給；副總統按 2,000 點計給。★ 但同條第二項寫「月俸點數折算俸額，由行政院定之」——也就是說，「一點折算多少錢」不在母法裡，而在行政院定的命令中。第五條亦規定「總統、副總統之政務加給數額，由行政院定之」。★ 本平台認為：這是典型的「有法源、但金額在行政命令」的結構 —— 民眾要查「總統一個月領多少」，得先找到那份行政院令。" data-level="central">
+          <a href="entity/exp-head-001.html">總統月俸：2,700 點（折算金額由行政院定之）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="直轄市長／縣市長／鄉鎮市長薪給（地方制度法 §61） 地方制度法第六十一條：「直轄市長、縣（市）長、鄉（鎮、市）長，應支給薪給」，但第二項寫「前項人員之薪給、退職金及撫卹金之支給，以法律定之」。★ 也就是說：母法只說「要給」，具體金額要靠另一部法律。而該條同時規定：停職期間不得發給薪給，復職或無罪確定後補發。★ 本平台查證結果：具體俸額散見於公務人員俸給法與相關加給規定，沒有一個「地方首長薪給表」的單一公開頁面。" data-level="local_gov">
+          <a href="entity/exp-head-002.html">直轄市長／縣市長／鄉鎮市長薪給（地方制度法 §61）</a>
+          <span class="badge lv">縣市政府</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="政府機關人事費（各機關預算書編列，無逐人公開） 各機關年度預算書都有「人事費」科目（含待遇、退休撫卹、保險等），但公開的是「機關層級的總額」，不是「逐人」的薪資明細。★ 對照：民間企業的董監事酬勞、高階經理人薪酬，在上市櫃公司年報中必須揭露。★★ 本平台認為：公部門的人事費透明度，低於上市櫃公司的高階薪酬揭露。" data-level="central">
+          <a href="entity/exp-hr-001.html">政府機關人事費（各機關預算書編列，無逐人公開）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">1 項未公開</span>
+        </li><li class="entity-item" data-search="村里長事務補助費（115-07-01 調增後每月） 自 115-07-01 起，一般村里長事務補助費每月由 5 萬元調高至 5 萬 4,000 元；原住民族地區由 6 萬元調高至 6 萬 4,800 元。115-07 至 12 月新增經費約 3 億元，由中央追加預算及特別統籌稅款支應。116-01-01 起再隨軍公教待遇調增 4%。★ 這是法定標準，不是各村里長的實際支用明細。" data-level="local_gov">
+          <a href="entity/exp-006.html">村里長事務補助費（115-07-01 調增後每月）</a>
+          <span class="badge lv">縣市政府</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="議員助理補助費（115-07-01 調增後每人每月總額） 自 115-07-01 起，議員助理補助費依比例調增約 4.65%，並加計一名辦公室主管每月 2,000 元：直轄市議員助理費總額每人每月由 32 萬元調高至 33 萬 6,880 元；縣（市）議員由 16 萬元調高至 16 萬 9,440 元（此列以直轄市計）。116-01-01 起再隨軍公教待遇調增 4%。★ 這是補助費總額上限，非逐名助理薪資明細。" data-level="local_council">
+          <a href="entity/exp-007.html">議員助理補助費（115-07-01 調增後每人每月總額）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="議員出國考察費（法定標準 vs 逐次考察紀錄） 【法定標準】直轄市議員每年 15 萬元、縣（市）議員每年 10 萬元（此列以直轄市計）。【缺口】這是「每年可支領上限」，不是實際出國次數、目的地、經費明細——逐次考察紀錄（誰、何時、去哪、花多少）政府未公開。★ 本平台查不到逐次紀錄，標 NOT_PUBLISHED（政府未公開），不是確認不存在。" data-level="local_council">
+          <a href="entity/exp-008.html">議員出國考察費（法定標準 vs 逐次考察紀錄）</a>
+          <span class="badge lv">縣市議會</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="部會首長出國考察費（出國報告公開、逐筆費用未公開） 【已公開】公務出國報告上網：出國目的、行程、考察內容可查；各機關預算書也編列出國旅費總額。【缺口】單次出國的「逐筆費用明細」（機票、住宿、雜費）未統一公開；報告是否附經費概況不一致。★ 出國報告量能公開，但「每一趟花多少錢」沒有統一的結構化公開。" data-level="central">
+          <a href="entity/exp-009.html">部會首長出國考察費（出國報告公開、逐筆費用未公開）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">1 項未公開</span>
+        </li><li class="entity-item" data-search="立法委員出國考察費（預算編列、逐人紀錄未見公開） 立委出國考察經費編列於立法院預算；出國報告可於公務出國報告資訊網查詢（若機關上傳）。【缺口】逐位立委的實際出國次數、目的地、經費明細未見公開；與「問政業務費」總額相同，只有總體、沒有逐人。★ 本平台查不到逐人紀錄，標 NOT_PUBLISHED（政府未公開）。" data-level="central">
+          <a href="entity/exp-010.html">立法委員出國考察費（預算編列、逐人紀錄未見公開）</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="縣市首長出國考察費（預算公開、逐次明細未見公開） 縣市首長出國考察經費編列於地方預算書（總額公開）；出國報告若上傳可於公務出國報告資訊網查詢。【缺口】單次出國的經費明細（機票、住宿、隨行人員費用）未統一公開；各縣市做法不一（部分縣市將出國考察紀錄列為議會質詢焦點——如 2026-08 苗栗市、台中市案例）。★ 各縣市差異大，本平台以「公開程度」標記，不做縣市排名。" data-level="local_gov">
+          <a href="entity/exp-011.html">縣市首長出國考察費（預算公開、逐次明細未見公開）</a>
+          <span class="badge lv">縣市政府</span>
+          
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="臺東縣政府出國考察糾正案（財政困難仍耗費公帑） 臺東縣 監察院曾糾正：臺東縣政府近 3 年來財政困難，仍耗費公帑出國考察，且未依規定審核出國計畫及經費核銷，均有違失；內政部函報臺東縣政府檢討情形。★ 逐次考察紀錄與核銷明細未見公開。" data-level="local_gov">
+          <a href="entity/exp-012.html">臺東縣政府出國考察糾正案（財政困難仍耗費公帑）</a>
+          <span class="badge lv">縣市政府·臺東縣</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li></ul>
+    </section><section class="card">
+      <h2>食藥安全<span class="en">Food &amp; Drug Safety</span></h2>
+      <p class="desc">食品、藥品、健康衛生相關的稽查作為與公開資訊。追蹤食藥署與地方衛生局的查核，以及「限量規定」是否真有檢驗方法在執行。</p>
+      <p class="note">稽查結果多以新聞稿形式發布，未以結構化開放資料提供；部分限量標準「有規範、無檢驗方法」。</p>
+      <ul class="entity-list"><li class="entity-item" data-search="市售蘿蔔糕「沒蘿蔔」：標示稽查流於形式（監察院調查） 衛生福利部食品藥物管理署 監察院調查：部分市售蘿蔔糕以玉米澱粉、修飾澱粉及添加物製成、甚至不含蘿蔔，食藥署未研議訂定蘿蔔含量標示規範；110 年至 115-06-30 抽查 1,028 件次，均僅以「文字核對」品名與成分欄位即表示稽查符合規定，未赴製造廠稽查實際投料。修飾澱粉：衛福部自 97-11-20 已規範辛烯基丁二酸鋁澱粉等 3 項使用限量，但食藥署迄今未建立檢驗方法，限量規範形同虛設。對照先例：米粉、果蔬汁、乳品均已有「含量」標示規範；日本食品表示法、歐盟 QUID 亦有定量標示制度。健康風險（報告引述）：磷酸澱粉含磷酸鹽，與慢性腎病風險相關（USRDS 2025 數據：台灣末期腎病盛行率世界第一）；醋酸澱粉屬高升糖指數食物。★ 本案是「調查報告要求檢討改進」，不是糾正案文。" data-level="central">
+          <a href="entity/fd-001.html">市售蘿蔔糕「沒蘿蔔」：標示稽查流於形式（監察院調查）</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="彰化芬普尼毒雞蛋：5 萬顆問題蛋流入市面（監察院調查） 彰化縣政府（衛生局、動物防疫所）；農業部、衛福部 彰化縣 2025-11 彰化縣爆發芬普尼雞蛋事件。彰化縣衛生局 2025-10-27 在市場端抽驗洗選蛋，11-04 驗出芬普尼代謝物 0.03ppm（法規容許標準 0.01ppm），追查來源指向轄內畜牧場；彰化縣防疫所在污染來源未釐清前，僅因畜牧場採樣未檢出即認定管制要件消滅並解除移動管制，案例場趁 1 天管制空窗售出 5 萬多顆違規雞蛋。農藥管理漏洞：畜牧場負責人曾具農民身分，購得不得用於畜牧場的芬普尼；原販售農藥行多年前歇業，縣府難以追查來源。抽驗比例：國內年產蛋 80 億至 88 億顆，末端抽驗僅約 5,000 餘顆。台灣在 2017、2019、2025 年三度發生芬普尼雞蛋事件。★ 媒體轉述：FTNN 2026-07-04（https://www.ftnn.com.tw/news/558359）。本案為「調查報告要求檢討改進」，非糾正案文。" data-level="local_gov">
+          <a href="entity/fd-002.html">彰化芬普尼毒雞蛋：5 萬顆問題蛋流入市面（監察院調查）</a>
+          <span class="badge lv">縣市政府·彰化縣</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li></ul>
+    </section><section class="card">
+      <h2>環境治理<span class="en">Environmental Governance</span></h2>
+      <p class="desc">公共建設與環境治理：廢棄物非法棄置、環評、水與空氣污染、場址清理。追蹤「誰列管、誰清理、清到哪裡去」。</p>
+      <p class="note">場址列管清單與清理進度未以開放資料提供；廢棄物流向追蹤常缺；環評承諾與實際執行的落差少見系統性公開。</p>
+      <ul class="entity-list"><li class="entity-item" data-search="雲林縣農地遭非法棄置事業廢棄物（5 處未清理） 雲林縣環境保護局 雲林縣 監察院調查發現：不法業者以「免費提供土方」為餌騙取／租用農地，非法回填營建混合物與有害事業廢棄物。遭棄置區域共 5 地段、14 筆地號，雲林縣政府列管 9 處，其中 5 處迄未完成清理（含 2 處有害事業廢棄物）；單一地號棄置量最高達 5,709.87 公噸。【怠失】雲林縣環保局未積極要求污染行為人清理，以「行為人服監中，將追蹤辦理」推託；已完成清理場址未追蹤去化流向；未依「廢棄物非法棄置案件追蹤列管及解除列管原則」登錄「廢棄物棄置案件管理系統（WDMS）」，遲至 115-06-12 才補登錄。★ 本平台整理自監察院調查報告；場址清理進度與去化流向未以開放資料公開。" data-level="local_gov">
+          <a href="entity/env-001.html">雲林縣農地遭非法棄置事業廢棄物（5 處未清理）</a>
+          <span class="badge lv">縣市政府·雲林縣</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="臺南光電「小二甲」案：監察院糾正能源署與南市府、彈劾 3 人 經濟部能源署、臺南市政府經濟發展局 監察院調查「臺南光電小二甲案」：2025-02 通過對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府，督促行政院全面檢討清查不實及不符規定之光電申設案件、審慎處理爭議案場。「小二甲」指 2 公頃以下農地變更作光電使用。★ 媒體：中央社 2025-02-26（https://www.cna.com.tw/news/afe/202502260236.aspx）；中時 2025-10-21 報導「監委提光電 7 問題」。★ 光電板廢棄物回收制度與案場環境監測資料，未見系統性公開。" data-level="central">
+          <a href="entity/env-002.html">臺南光電「小二甲」案：監察院糾正能源署與南市府、彈劾 3 人</a>
+          <span class="badge lv">中央</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">2 項未公開</span>
+        </li><li class="entity-item" data-search="營建剩餘土石方管理缺失：監察院糾正行政院與內政部 行政院、內政部 監察院 2025-03 糾正行政院與內政部：營建剩餘土石方管理缺失，包括流向管理與非法棄置（掩埋）問題。★ 本筆目前以媒體轉述為來源，監察院案號待補；土方流向、場址清冊與清理進度未以開放資料公開。" data-level="central">
+          <a href="entity/env-003.html">營建剩餘土石方管理缺失：監察院糾正行政院與內政部</a>
+          <span class="badge lv">中央</span>
+          
+          
+          <span class="badge gap">3 項未公開</span>
+        </li><li class="entity-item" data-search="台南營建廢棄物掩埋集團：檢起訴 102 人、27 家公司 臺南地檢署、臺南市政府環境保護局 臺南市 臺南地檢署偵辦營建廢棄物非法棄置／掩埋集團：起訴 102 人、27 家公司，不法獲利約 2,865 萬元；棄置範圍橫跨臺南 8 區，面積約 40 個足球場（魚塭、農地）。案件追查約 2 年；承辦檢察官林昆璋獲金環獎（ETtoday 2026-11-03，該站憑證本平台無法驗證）。★ 本案已起訴、尚未判決確定；起訴書全文未公開，本筆以媒體轉述為來源——查到起訴事實，不等於確認犯罪（鐵律 ②④）。★ 原始影片：民視新聞「台南掩埋集團涉不法牟利2865萬 橫跨27公司遭起訴」。" data-level="local_gov">
+          <a href="entity/env-004.html">台南營建廢棄物掩埋集團：檢起訴 102 人、27 家公司</a>
+          <span class="badge lv">縣市政府·臺南市</span>
+          <span class="badge st">追蹤中</span>
+          
+          <span class="badge gap">1 項未公開</span>
+        </li></ul>
+    </section></main>
+
+<section class="principles">
+  <h2>日本怎麼做（對照）</h2>
+  <p class="hint">日本各縣議會公開「政務活動費収支報告書」—— 每一位議員的收支明細與收據，可在議會網站查閱。青森、千葉、沖繩、大阪等縣均已行之有年。台灣目前僅公開總額。</p>
+  <ul class="refs"><li><a href="https://www.pref.aomori.lg.jp/soshiki/gikai/semukatsudohi.html" rel="noreferrer noopener" target="_blank">青森県議會</a></li><li><a href="http://www.pref.chiba.lg.jp/gikai/soumu/press/2025/seimukoukai.html" rel="noreferrer noopener" target="_blank">千葉県議會</a></li><li><a href="https://www.pref.okinawa.jp/kensei/gikai/1017047/1017031/1035145.html" rel="noreferrer noopener" target="_blank">沖縄県議會</a></li><li><a href="https://www.pref-osaka-lg-jp.cache.yimg.jp/o170010/gikai_somu/seimukatudouhi/etsuran.html" rel="noreferrer noopener" target="_blank">大阪府議會</a></li></ul>
+</section>
+
+<section class="principles">
+  <h2>其他國家怎麼做（對照）</h2>
+  
+  <div class="ref-block">
+    <h3>新加坡 <span class="en">Singapore</span></h3>
+    <p class="hint">新加坡的監督機制以「事後審計 + 國會問責」為主：審計總署（AGO）每年公布審計報告並送國會公共帳目委員會（PAC）逐案質詢；政府採購全部走 GeBIZ 電子商務平台，所有公開招標機會與結果（含得標廠商）都可在網上查；貪污案件由獨立於警方的貪污調查局（CPIB）專責偵辦，並每年公布統計。</p>
+    <ul class="refs"><li><a href="https://www.gebiz.gov.sg" rel="noreferrer noopener" target="_blank">GeBIZ 政府採購平台</a></li><li><a href="https://www.ago.gov.sg" rel="noreferrer noopener" target="_blank">審計總署（AGO）</a></li><li><a href="https://www.cpib.gov.sg" rel="noreferrer noopener" target="_blank">貪污調查局（CPIB）</a></li></ul>
+  </div>
+  <div class="ref-block">
+    <h3>美國 <span class="en">United States</span></h3>
+    <p class="hint">USAspending.gov 依法公開聯邦政府每一筆支出（合約、補助、貸款），可依機關、廠商、地點查詢；政府課責署（GAO）獨立審計並公開所有報告；《資訊自由法》（FOIA）強制公開聯邦紀錄，並有集中入口 FOIA.gov。</p>
+    <ul class="refs"><li><a href="https://www.usaspending.gov" rel="noreferrer noopener" target="_blank">USAspending.gov</a></li><li><a href="https://www.gao.gov" rel="noreferrer noopener" target="_blank">政府課責署（GAO）</a></li><li><a href="https://www.foia.gov" rel="noreferrer noopener" target="_blank">FOIA.gov 資訊自由入口</a></li></ul>
+  </div>
+  <div class="ref-block">
+    <h3>英國 <span class="en">United Kingdom</span></h3>
+    <p class="hint">Contracts Finder 規定所有政府採購機會與決標結果必須上網公布；國家審計署（NAO）獨立審計並由國會公共帳目委員會質詢；WhatDoTheyKnow 是民間經營的資訊自由（FOI）平台，任何人可公開提出資訊請求，請求與回覆全部公開可查。</p>
+    <ul class="refs"><li><a href="https://www.contractsfinder.service.gov.uk" rel="noreferrer noopener" target="_blank">Contracts Finder 採購公告</a></li><li><a href="https://www.nao.org.uk" rel="noreferrer noopener" target="_blank">國家審計署（NAO）</a></li><li><a href="https://www.whatdotheyknow.com" rel="noreferrer noopener" target="_blank">WhatDoTheyKnow 資訊請求平台</a></li></ul>
+  </div>
+  <div class="ref-block">
+    <h3>韓國 <span class="en">South Korea</span></h3>
+    <p class="hint">韓國設有統一的人民申訴與提議入口「國民申聞鼓」（e-People，국민신문고），以及資訊公開入口 open.go.kr（정보공개포털），公民可線上請求公開政府資訊，請求內容與機關回覆多數公開可查。</p>
+    <ul class="refs"><li><a href="https://www.epeople.go.kr" rel="noreferrer noopener" target="_blank">국민신문고 e-People</a></li><li><a href="https://www.open.go.kr" rel="noreferrer noopener" target="_blank">정보공개포털 open.go.kr</a></li></ul>
+  </div>
+  <div class="ref-block">
+    <h3>紐西蘭 <span class="en">New Zealand</span></h3>
+    <p class="hint">紐西蘭 1982 年《官方資訊法》（OIA）規定任何人（不限國籍）都可請求官方資訊，機關須在 20 個工作日內回覆；審計署（Office of the Auditor-General）獨立審計並公開報告；民間平台 FYI.org.nz 讓每個人的資訊請求與回覆公開可查。</p>
+    <ul class="refs"><li><a href="https://fyi.org.nz" rel="noreferrer noopener" target="_blank">FYI.org.nz 資訊請求平台</a></li><li><a href="https://oag.parliament.nz" rel="noreferrer noopener" target="_blank">紐西蘭審計署（OAG）</a></li><li><a href="https://budget.govt.nz" rel="noreferrer noopener" target="_blank">政府預算（Budget）</a></li></ul>
+  </div>
+  <div class="ref-block">
+    <h3>國際 <span class="en">Global</span></h3>
+    <p class="hint">開放政府夥伴關係（Open Government Partnership，OGP）是 70 餘國參與的國際倡議，成員國須提出「開放政府國家行動方案」，承諾財政透明、開放資料、公眾參與等具體措施，並接受獨立檢視機制（IRM）的追蹤報告。</p>
+    <ul class="refs"><li><a href="https://www.opengovpartnership.org" rel="noreferrer noopener" target="_blank">Open Government Partnership</a></li></ul>
+  </div>
+</section>
+
+<section class="principles">
+  <h2>資料下載（給記者／研究者）</h2>
+  <p class="hint">全部條目與「資料公開狀態」可整批下載，不需申請。CSV 可直接用試算表開啟。</p>
+  <ul class="refs">
+    <li><a href="entities.csv">下載 CSV（動態）</a></li>
+    <li><a href="data.json">下載 JSON（動態）</a></li>
+    <li><a href="entities.csv">下載 entities.csv（靜態，不依賴 API）</a></li>
+    <li><a href="data.json">下載 data.json（靜態完整資料）</a></li>
+  </ul>
+</section>
+
+<section class="principles">
+  <h2>延伸：民代費用公開</h2>
+  <p class="hint">民意代表的個人支出、考察費與薪資，日本、英國、美國公開到什麼程度？
+  <a href="disclosure.html">看各國對照 →</a></p>
+  <p class="hint">我們查不到的資料，別國有公開義務嗎？
+  <a href="benchmarks.html">缺口 × 國際公開義務 →</a></p>
+  <p class="hint">議員出國考察報告，各縣市議會公開了嗎？
+  <a href="council-disclosure.html">縣市議會考察紀錄對照 →</a></p>
+</section>
+
+<section class="principles">
+  <h2>你可以做什麼</h2>
+  <ol>
+    <li>在任一工程／案件頁面補充你看到的狀況（會標記「未經查證」）</li>
+    <li>如果你是機關，可以直接回應（@gov.tw 信箱可升級驗證）</li>
+    <li>發現資料沒公開？那就是我們要記錄的事</li>
+  </ol>
+</section>
+
+<section class="principles">
+  <h2>給站長的話（網站建議）</h2>
+  <p class="hint">對這個網站有什麼建議？少收了哪個案子、哪個數字與官方文件不符、想加什麼類別——都可以留下來。
+  留言<b>不會公開顯示</b>，站長每天檢查；重要的事會排進工作清單並記入站長日誌。</p>
+  <form id="form-suggest" class="form">
+    <label>你的建議
+      <textarea name="body" rows="4" maxlength="2000" required
+        placeholder="例：建議加收某縣市議會的考察紀錄／發現某筆金額與糾正案文不一致…"></textarea>
+    </label>
+    <label>聯絡方式（選填，不公開）
+      <input name="contact" maxlength="120" placeholder="email 或電話">
+    </label>
+    <button type="submit">送出建議</button>
+    <p id="suggest-result" class="result" hidden></p>
+  </form>
+</section>
+
+<footer>
+  <p>資料來源：政府公開資訊、司法院開放資料、監察院、民眾提供。</p>
+  <p>本平台只記錄觀察，不判斷對錯。所有未標記「已驗證」的回應均為自稱。</p>
+  <p>更新：2026-11-02　·　<a href="en.html">English / About</a></p>
+</footer>
+<script src="client.js"></script>
+</body>
+</html>
