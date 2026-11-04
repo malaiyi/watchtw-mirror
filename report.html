@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>公民小蜜蜂：回報地方問題 — 全民監督</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div style="margin:0;padding:.6rem 1rem;background:#1e293b;color:#f8fafc;
+font:14px/1.5 system-ui,sans-serif;text-align:center">
+這是 <b>靜態備援鏡像</b>（GitHub Pages）。搜尋、瀏覽、下載可用；
+投稿與即時資料請回主站 <a href="https://watchtw.pages.dev" style="color:#7dd3fc">watchtw.pages.dev</a>
+</div>
+<header class="site"><h1>公民小蜜蜂 🐝</h1>
+<p class="hint">一人一則，把各地方的問題送上來。不用先有條目、不用註冊；
+附照片／影片、地址、座標都可以。送出後標記「未經查證」，站長會看。</p></header>
+<main>
+<section class="block">
+  <h2>我要回報</h2>
+  <form id="form-report" class="form">
+    <label>縣市
+      <select name="county">
+        <option value="">（不確定／全國性）</option>
+        <option value="臺北市">臺北市</option><option value="新北市">新北市</option><option value="桃園市">桃園市</option><option value="臺中市">臺中市</option><option value="臺南市">臺南市</option><option value="高雄市">高雄市</option><option value="基隆市">基隆市</option><option value="新竹市">新竹市</option><option value="嘉義市">嘉義市</option><option value="新竹縣">新竹縣</option><option value="苗栗縣">苗栗縣</option><option value="彰化縣">彰化縣</option><option value="南投縣">南投縣</option><option value="雲林縣">雲林縣</option><option value="嘉義縣">嘉義縣</option><option value="屏東縣">屏東縣</option><option value="宜蘭縣">宜蘭縣</option><option value="花蓮縣">花蓮縣</option><option value="臺東縣">臺東縣</option><option value="澎湖縣">澎湖縣</option><option value="金門縣">金門縣</option><option value="連江縣">連江縣</option>
+      </select>
+    </label>
+    <label>鄉鎮市區（選填）
+      <input name="district" maxlength="40" placeholder="例：學甲區">
+    </label>
+    <label>類別
+      <select name="category">
+        <option value="procurement">公共工程／採購</option><option value="environment">環境／廢棄物</option><option value="food_drug">食藥／衛生</option><option value="expense">公職費用／支出</option><option value="judicial">司法／執法</option><option value="other">其他</option>
+      </select>
+    </label>
+    <label>一句話標題
+      <input name="title" maxlength="120" required placeholder="例：○○路工地圍籬倒了兩週沒修">
+    </label>
+    <label>說明
+      <textarea name="body" rows="5" maxlength="2000" required
+        placeholder="你看到什麼、什麼時候、影響誰。有具體位置更好。"></textarea>
+    </label>
+    <label>地址（選填）
+      <input name="location" maxlength="200" placeholder="例：○○區○○路與○○街口">
+    </label>
+    <label>座標（選填）
+      <span class="coord-row">
+        <input name="lat" inputmode="decimal" placeholder="緯度" maxlength="20">
+        <input name="lng" inputmode="decimal" placeholder="經度" maxlength="20">
+        <button type="button" id="btn-report-geo" class="btn-minor">取用目前位置</button>
+      </span>
+    </label>
+    <label>照片／影片（選填）
+      <input type="file" name="file" accept="image/jpeg,image/png,image/gif,image/webp,video/mp4,video/webm">
+    </label>
+    <label>你的名字（選填，公開顯示）
+      <input name="submitter" maxlength="40" placeholder="匿名">
+    </label>
+    <label>聯絡方式（選填，不公開）
+      <input name="contact" maxlength="120" placeholder="email 或電話">
+    </label>
+    <button type="submit">送出回報</button>
+    <p id="report-result" class="result" hidden></p>
+  </form>
+  <p class="hint">★ 不要貼別人的個資、不要指名道姓指控犯罪。你提供的事實會公開；法律責任以有權機關認定為準。</p>
+</section>
+
+<section class="block">
+  <h2>各縣市回報數（<span id="reports-count">0</span> 則）</h2>
+  <div id="county-board" class="county-board"></div>
+  <p class="hint">過濾：<select id="report-filter"><option value="">全部縣市</option>
+    <option value="臺北市">臺北市</option><option value="新北市">新北市</option><option value="桃園市">桃園市</option><option value="臺中市">臺中市</option><option value="臺南市">臺南市</option><option value="高雄市">高雄市</option><option value="基隆市">基隆市</option><option value="新竹市">新竹市</option><option value="嘉義市">嘉義市</option><option value="新竹縣">新竹縣</option><option value="苗栗縣">苗栗縣</option><option value="彰化縣">彰化縣</option><option value="南投縣">南投縣</option><option value="雲林縣">雲林縣</option><option value="嘉義縣">嘉義縣</option><option value="屏東縣">屏東縣</option><option value="宜蘭縣">宜蘭縣</option><option value="花蓮縣">花蓮縣</option><option value="臺東縣">臺東縣</option><option value="澎湖縣">澎湖縣</option><option value="金門縣">金門縣</option><option value="連江縣">連江縣</option>
+  </select></p>
+  <div id="reports-list"><p class="empty">載入中…</p></div>
+</section>
+</main>
+<footer><p><a href="index.html">回首頁</a>　·　<a href="scope.html">監測範圍</a></p>
+<p class="hint">公開內容為民眾陳述（未經查證）；站長審核後可能收錄為正式條目。</p></footer>
+<script src="client.js"></script>
+</body></html>

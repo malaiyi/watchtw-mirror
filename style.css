@@ -65,6 +65,11 @@ a:hover{text-decoration:underline}
 .btn-minor:hover{border-color:var(--accent)}
 .obs-media{max-width:100%;border-radius:.4rem;margin:.4rem 0;display:block}
 video.obs-media{max-height:360px}
+.county-board{display:flex;flex-wrap:wrap;gap:.35rem;margin:.4rem 0}
+.chip{font-size:.8rem;padding:.2rem .5rem;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+.chip-on{color:var(--accent);border-color:var(--accent)}
+.report-item{border:1px solid var(--line);border-radius:.6rem;padding:.7rem .9rem;margin:.6rem 0;background:var(--card)}
+.report-item h3{margin:.1rem 0 .3rem;font-size:1rem}
 .badge{display:inline-block;font-size:.72rem;padding:.1rem .45rem;
   border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:.4rem}
 .badge.gap{color:var(--gap);border-color:var(--gap)}
