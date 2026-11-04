@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T12:45:51.440Z",
+  "generated_at": "2026-11-04T01:01:44.325Z",
   "meta": {
     "name": "全民監督",
     "name_en": "CivicLens Taiwan",
@@ -1223,6 +1223,36 @@
       "event_status": "UNDER_REVIEW",
       "discovery_date": "2026-11-02",
       "follow_up_date": "2026-12-03"
+    },
+    {
+      "id": "fd-003",
+      "vertical": "food_drug_safety",
+      "title": "寶林茶室食品中毒案：6 死、33 人邦克列酸陽性，監察院糾正臺北市政府",
+      "agency": "臺北市政府（衛生局）；新北市政府（通報）",
+      "product": "炒粿條、滑蛋河粉（邦克列酸）",
+      "finding": "專業警覺性不足；未即時下架／保留／封存；未第一時間採樣食物檢體；錯失採樣黃金期；迄今未查獲病原菌來源",
+      "report_date": "2025-01-22",
+      "source_url": "https://www.cy.gov.tw/News_Content.aspx?n=792&s=32397",
+      "source_note": "監察院新聞稿 114-01-22（監察委員：王幼玲、張菊芳、田秋堇；社福及衛環委員會通過糾正臺北市政府）",
+      "note": "案例事實（依監察院新聞稿）：113 年 3 月臺北市寶林茶室發生 35 人食品中毒事件，經檢驗邦克列酸陽性者共 33 名，均於 113-03-19 至 03-24 食用炒粿條、滑蛋河粉等餐點，其中 6 名個案死亡。【糾正理由】臺北市政府於 113-03-24 中午即接獲新北市政府通報 2 件疑似食品中毒（其中 1 名已休克住院），惟稽查人員遲至當日傍晚才到場；未對疑似問題食材及餐點進行下架、保留、封存，致同日仍有 8 名民眾用餐後出現腹瀉、腹痛、嘔吐等症狀；亦未第一時間採樣食物檢體，錯失採樣黃金期，迄今仍未查獲病原菌來源。★ 本案為監察院糾正案（114-01-22），非刑事判決；相關刑事責任以檢方起訴與法院判決為準。★ 媒體：中央社 2026-11-03（https://www.cna.com.tw/news/aloc/202611030178.aspx）。",
+      "data_status": {
+        "investigation_report": "PUBLISHED",
+        "inspection_records": "PARTIAL",
+        "test_results": "PARTIAL",
+        "case_outcome": "NOT_PUBLISHED"
+      },
+      "gov_level": "local_gov",
+      "county": "臺北市",
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-04",
+      "follow_up_date": "2026-12-04",
+      "media_links": [
+        {
+          "label": "中央社：寶林茶室案爭議 蔣萬安：第一時間採集生物跡證",
+          "url": "https://www.cna.com.tw/news/aloc/202611030178.aspx",
+          "type": "news"
+        }
+      ]
     },
     {
       "id": "env-001",
