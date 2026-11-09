@@ -3,6 +3,27 @@
 (() => {
   'use strict';
 
+  // 靜態鏡像沒有 API：攔截送出，引導回主站
+  const MAIN_SITE = 'https://watchtw.pages.dev';
+  const IS_MIRROR = document.body && document.body.dataset.mirror === '1';
+  if (IS_MIRROR) {
+    document.addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      const out = document.querySelector('#report-result');
+      if (out) {
+        out.hidden = false;
+        out.dataset.ok = '0';
+        out.textContent = '這是靜態備援鏡像，回報請回主站：';
+        const a = document.createElement('a');
+        a.href = MAIN_SITE;
+        a.textContent = MAIN_SITE;
+        out.append(a);
+      } else {
+        alert('這是靜態備援鏡像，回報請回主站：' + MAIN_SITE);
+      }
+    }, true);
+  }
+
   const $ = (s) => document.querySelector(s);
   const el = (tag, cls, text) => {
     const n = document.createElement(tag);

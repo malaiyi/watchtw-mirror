@@ -8,6 +8,28 @@
 //   ★ XSS：所有內容都用 textContent 塞進 DOM；連結只允許 http/https
 
 (() => {
+  // 靜態鏡像（GitHub Pages）沒有 API：攔截所有表單送出，明確引導回主站，
+  // 而不是讓使用者看到 BAD_RESPONSE／405。
+  const MAIN_SITE = 'https://watchtw.pages.dev';
+  const IS_MIRROR = document.body && document.body.dataset.mirror === '1';
+  if (IS_MIRROR) {
+    document.addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      const out = ev.target.querySelector('.result') || document.querySelector('.result');
+      if (out) {
+        out.hidden = false;
+        out.dataset.ok = '0';
+        out.textContent = '這是靜態備援鏡像，投稿與回應請回主站：';
+        const a = document.createElement('a');
+        a.href = MAIN_SITE;
+        a.textContent = MAIN_SITE;
+        out.append(a);
+      } else {
+        alert('這是靜態備援鏡像，投稿請回主站：' + MAIN_SITE);
+      }
+    }, true);
+  }
+
   const api = (path, body) =>
     fetch(path, {
       method: 'POST',
