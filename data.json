@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T01:01:47.861Z",
+  "generated_at": "2026-11-09T01:02:28.015Z",
   "meta": {
     "name": "全民監督",
     "name_en": "CivicLens Taiwan",
@@ -1425,6 +1425,45 @@
         {
           "label": "三立：爐碴案判 8 年半又捲 3 億詐欺 郭再欽摘電子腳鐐（2026-09-07）",
           "url": "https://www.setn.com/news/1902898",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "oi-001",
+      "vertical": "oversight_institutions",
+      "title": "監察院陷空窗：第 6 屆監委任期屆滿，27 名被提名人遭立法院否決",
+      "agency": "監察院、立法院、總統府",
+      "finding": "監委任期屆滿後新任未就職；政治獻金裁罰停擺、彈劾懲戒無法上訴；空窗期無限期延長",
+      "report_date": "2026-07-31",
+      "source_url": "https://www.cna.com.tw/news/aipl/202607310304.aspx",
+      "source_note": "中央社 2026-07-31：監察院陷空窗 政治獻金裁罰停擺、彈劾懲戒無法上訴；另見中央社 2026-09-29（監委被提名人全遭封殺）、三立 2026-09-29（27 名被提名人 50:60 否決）",
+      "note": "第 6 屆監察委員任期於 2026-07-31 屆滿，新任監委未就職，監察院進入空窗。中央社 2026-07-31 報導影響：政治獻金裁罰停擺、彈劾懲戒案件無法上訴。立法院 2026-09-29 就監委人事案表決，27 名被提名人遭否決（媒體報導票數 50:60），空窗期無限期延長；總統府表示監院空轉非國人所樂見，在野黨稱社會不滿監院功能。★ 這是制度空窗與政治過程，不是對任何人的違法認定；本站記錄的是「監督機關能否運作」這項公共事實，以及它對監督資料產出的影響。★ 對本平台的影響：監察院是本站 16 個監測來源之一，空窗期間新糾正／彈劾案產出必然減少，「查不到新案」不等於「政府沒問題」。",
+      "data_status": {
+        "term_expiry": "PUBLISHED",
+        "nomination_vote": "PUBLISHED",
+        "case_backlog": "NOT_PUBLISHED",
+        "oversight_output": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-09",
+      "follow_up_date": "2026-12-09",
+      "media_links": [
+        {
+          "label": "中央社：監察院陷空窗 政治獻金裁罰停擺、彈劾懲戒無法上訴（2026-07-31）",
+          "url": "https://www.cna.com.tw/news/aipl/202607310304.aspx",
+          "type": "news"
+        },
+        {
+          "label": "中央社：監委被提名人全遭封殺（2026-09-29）",
+          "url": "https://www.cna.com.tw/news/aipl/202609290225.aspx",
+          "type": "news"
+        },
+        {
+          "label": "三立：監察委員 27 名被提名人遭否決（2026-09-29）",
+          "url": "https://www.setn.com/news/1914484",
           "type": "news"
         }
       ]
