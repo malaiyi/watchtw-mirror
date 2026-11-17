@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T01:01:25.251Z",
+  "generated_at": "2026-11-17T01:01:22.610Z",
   "meta": {
     "name": "全民監督",
     "name_en": "CivicLens Taiwan",
@@ -184,7 +184,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_moi_fee_table.pdf"
+      ]
     },
     {
       "id": "exp-003",
@@ -208,7 +211,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_moi_fee_table.pdf"
+      ]
     },
     {
       "id": "exp-004",
@@ -232,7 +238,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_moi_fee_table.pdf"
+      ]
     },
     {
       "id": "exp-005",
@@ -255,7 +264,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_moi_fee_table.pdf"
+      ]
     },
     {
       "id": "pcc-cy-2014-01",
@@ -377,7 +389,10 @@
         "contract": null,
         "paid": null,
         "settlement": null
-      }
+      },
+      "evidence_files": [
+        "_cy_report.pdf"
+      ]
     },
     {
       "id": "pcc-cpc-m11001-2026-01",
@@ -415,7 +430,10 @@
         "contract": 953810000,
         "paid": null,
         "settlement": null
-      }
+      },
+      "evidence_files": [
+        "_cy_cpc_report.pdf"
+      ]
     },
     {
       "id": "pcc-oac-2024-01",
@@ -548,7 +566,10 @@
         "contract": null,
         "paid": null,
         "settlement": null
-      }
+      },
+      "evidence_files": [
+        "_cy_cpc_report.pdf"
+      ]
     },
     {
       "id": "pcc-tra-smart-2026-01",
@@ -764,7 +785,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_jud_api.pdf"
+      ]
     },
     {
       "id": "jud-cy-2019-01",
@@ -929,7 +953,10 @@
       "county": null,
       "event_status": "PUBLISHED",
       "discovery_date": "2026-11-02",
-      "follow_up_date": null
+      "follow_up_date": null,
+      "evidence_files": [
+        "_dgpa.pdf"
+      ]
     },
     {
       "id": "exp-006",
@@ -1298,7 +1325,10 @@
       "county": "雲林縣",
       "event_status": "UNDER_REVIEW",
       "discovery_date": "2026-11-02",
-      "follow_up_date": "2026-12-03"
+      "follow_up_date": "2026-12-03",
+      "evidence_files": [
+        "_env_yunlin.pdf"
+      ]
     },
     {
       "id": "env-002",
