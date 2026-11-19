@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:01:36.100Z",
+  "generated_at": "2026-11-19T05:40:53.232Z",
   "meta": {
     "name": "全民監督",
     "name_en": "CivicLens Taiwan",
@@ -1340,18 +1340,26 @@
       "report_date": "2025-02（彈劾）",
       "source_url": "https://multimedia.cy.gov.tw/News_Content.aspx?n=795&s=32628",
       "source_note": "監察院新聞稿：對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府",
-      "note": "監察院調查「臺南光電小二甲案」：2025-02 通過對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府，督促行政院全面檢討清查不實及不符規定之光電申設案件、審慎處理爭議案場。「小二甲」指 2 公頃以下農地變更作光電使用。★ 媒體：中央社 2025-02-26（https://www.cna.com.tw/news/afe/202502260236.aspx）；中時 2025-10-21 報導「監委提光電 7 問題」。★ 光電板廢棄物回收制度與案場環境監測資料，未見系統性公開。",
+      "note": "監察院調查「臺南光電小二甲案」：2025-02 通過對經濟部能源署署長游振偉、前組長林文信、臺南市政府經發局前局長陳凱凌等 3 人之彈劾案（送懲戒法院）；並糾正經濟部能源署及臺南市政府，督促行政院全面檢討清查不實及不符規定之光電申設案件、審慎處理爭議案場。「小二甲」指 2 公頃以下農地變更作光電使用。★ 媒體：中央社 2025-02-26（https://www.cna.com.tw/news/afe/202502260236.aspx）；中時 2025-10-21 報導「監委提光電 7 問題」。★ 光電板廢棄物回收制度與案場環境監測資料，未見系統性公開。【後續（2025-08 台南市議會審計處審核報告）】台南市已核准小二甲地面光電 **317.29 公頃**：地政局意見書 200 件（113 公頃）、經發局核准「倒填日期同意書」280 件（204 公頃）；力暘光電面積 80 多公頃、不法獲利 **91 億元**已被起訴。審計處糾正農業局：台南有 227 公頃不利耕作農地，尚有 169 公頃未開發利用（74.67%），質疑為何不優先使用；並指部分案場未在法定期限前取得使用同意書、部分面積毗鄰超過 2 公頃卻仍核准。★ 以上為議會黨團引述審計處審核報告之質詢內容；監察院亦已糾正與彈劾（見來源）。本站記錄數字與爭點，不判定個案責任。",
       "data_status": {
         "investigation_report": "PUBLISHED",
         "site_registry": "PARTIAL",
         "waste_recycling_rules": "NOT_PUBLISHED",
-        "environmental_monitoring": "NOT_PUBLISHED"
+        "environmental_monitoring": "NOT_PUBLISHED",
+        "audit_followup": "PARTIAL"
       },
       "gov_level": "central",
       "county": null,
       "event_status": "UNDER_REVIEW",
       "discovery_date": "2026-11-02",
-      "follow_up_date": "2026-12-03"
+      "follow_up_date": "2026-12-19",
+      "media_links": [
+        {
+          "label": "台南市議會（國民黨團）：審計處糾正小二甲弊案 要求續查（2025-08-08）",
+          "url": "https://www.tncc.gov.tw/page.asp?mainid=691351E4-8518-42EA-B31A-CF2CFB66BDFA",
+          "type": "news"
+        }
+      ]
     },
     {
       "id": "env-003",
@@ -1592,6 +1600,41 @@
         {
           "label": "監察院調查報告（PDF，55 頁）",
           "url": "https://cybsbox.cy.gov.tw/CYBSBoxSSL/edoc/download/70495",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "env-007",
+      "vertical": "environment_governance",
+      "title": "廢光電板何去何從：回收制度、廢清法修法與 107 年棄置事件",
+      "agency": "環境部資源循環署；經濟部能源署；（回收法制）立法院",
+      "site": "全國（太陽光電案場與廢模組處理體系）",
+      "finding": "光電模組回收依繳費制度與 PVIS 申請；廢清法修正初審將光電板納入應回收廢棄物、非法棄置刑責提高至 7 年；制度建立前既有案場曾發生棄置事件",
+      "report_date": "2026-07-28",
+      "source_url": "https://enews.moenv.gov.tw/moenv-news/zh-tw/News/13783",
+      "source_note": "環境部 2026-07-28 新聞稿：說明廢太陽光電模組清除處理機制；另見工業廢棄物清理與資源化資訊網 2026-05-22（立法院衛環委員會 5/18 初審通過廢清法修正草案）",
+      "note": "制度現況（環境部 2026-07-28）：① 光電模組回收依經濟部「太陽光電發電設備模組回收費用收支保管及運用作業要點」，設置者向能源署繳納回收費用、納入再生能源發展基金；② 案場有廢模組排出需求時，透過「廢太陽光電板回收服務管理資訊系統（PVIS）」申請，由資源循環署委託合法業者清除處理，費用給實際執行業者；③ 制度建立前（107 年以前）既有案場，因 107 年發生廢光電模組棄置事件，由基金支應清除處理費用，確保進入合法體系。法制進度（2026-05-22）：立法院衛環委員會 5 月 18 日初審通過《廢棄物清理法》修正草案，首度將太陽光電板、風機葉片納入應回收廢棄物；製造、輸入、販賣及原料業者負回收責任並依銷售量申報繳費；案場除役前須提回收管理計畫；導入科技執法；非法棄置刑責由 5 年提高至 7 年、罰金最高 1,500 萬元，敏感區加重 1/2；並設債權保全與負責人連帶責任。★ 修法當時為初審通過，尚未完成三讀；施行日期與子法以正式公告為準。★ 缺口：全台廢模組實際產生量、回收率、裁罰統計與各案場回收計畫皆未以開放資料公開。",
+      "data_status": {
+        "recycling_system": "PARTIAL",
+        "module_volume": "NOT_PUBLISHED",
+        "site_decommission_plan": "NOT_PUBLISHED",
+        "penalty_stats": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-19",
+      "follow_up_date": "2026-12-19",
+      "media_links": [
+        {
+          "label": "環境部：說明廢太陽光電模組清除處理機制（2026-07-28）",
+          "url": "https://enews.moenv.gov.tw/moenv-news/zh-tw/News/13783",
+          "type": "news"
+        },
+        {
+          "label": "工業廢棄物資訊網：廢清法修正初審過關 光電板風機強制回收（2026-05-22）",
+          "url": "https://sdd.nat.gov.tw/riw/event/more?id=a56cb4a175d94f96b42af851006793e0",
           "type": "news"
         }
       ]
