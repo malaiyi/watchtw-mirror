@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:51:56.757Z",
+  "generated_at": "2026-11-22T01:01:59.215Z",
   "meta": {
     "name": "全民監督",
     "name_en": "CivicLens Taiwan",
@@ -1727,6 +1727,38 @@
         {
           "label": "立法院公報：前瞻第 5 期「提升道路品質」編列 65 億元",
           "url": "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique1/work/114/10/LCIDC01_1141001_00007.doc",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "pcc-tpc-datan-2026-11",
+      "vertical": "procurement",
+      "title": "台電大潭電廠品管缺失頻繁停機 審計部：減收電費逾 81 億元",
+      "agency": "台灣電力公司；經濟部；審計部",
+      "finding": "113 年度審計部決算審核報告指大潭電廠因品管缺失頻繁停機、減收電費收入逾 81 億元；立委質疑審計部對重大公營事業投資的事前／即時審計是否善盡職責",
+      "report_date": "2026-11",
+      "source_url": "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique1/final/pdf/115/54/LCIDC01_1155401.pdf",
+      "source_note": "立法院公報 第 115 卷 第 54 期 院會紀錄（第 179 頁）：引述 113 年度審計部決算審核報告；提案人李彥秀、賴士葆、林德福",
+      "note": "依立法院公報第 115 卷第 54 期院會紀錄（第 179 頁）：「113 年度審計部決算審核報告指出，台灣電力股份有限公司大潭電廠因品管缺失頻繁停機，減收電費收入逾 81 億元，損失鉅大。惟審計部對該等重大公營事業投資及營運計畫，於事前審計及即時審計階段是否善盡職責，未見檢討。」同頁另載：農業部漁業署前鎮漁港建設整體規劃未臻周延，部分設施完工未滿 9 個月即遭拆除。★ 本筆為審計機關查核意見與立委質詢之記錄，非違法認定；台電實際停機次數、原因與求償情形未見公開資料。",
+      "data_status": {
+        "audit_report": "PUBLISHED",
+        "revenue_loss": "PUBLISHED",
+        "outage_records": "NOT_PUBLISHED",
+        "responsibility_review": "NOT_PUBLISHED"
+      },
+      "gov_level": "central",
+      "county": null,
+      "event_status": "UNDER_REVIEW",
+      "discovery_date": "2026-11-22",
+      "follow_up_date": "2026-12-22",
+      "evidence_files": [
+        "_ppg_datan.pdf"
+      ],
+      "media_links": [
+        {
+          "label": "立法院公報 第 115 卷第 54 期（PDF，第 179 頁，554 頁全文）",
+          "url": "https://ppg.ly.gov.tw/ppg/PublicationBulletinDetail/download/communique1/final/pdf/115/54/LCIDC01_1155401.pdf",
           "type": "news"
         }
       ]
