@@ -70,6 +70,10 @@ video.obs-media{max-height:360px}
 .chip-on{color:var(--accent);border-color:var(--accent)}
 .report-item{border:1px solid var(--line);border-radius:.6rem;padding:.7rem .9rem;margin:.6rem 0;background:var(--card)}
 .report-item h3{margin:.1rem 0 .3rem;font-size:1rem}
+.cov-list{display:flex;flex-wrap:wrap;gap:.35rem;list-style:none;padding:0;margin:.4rem 0}
+.cov-list li{font-size:.85rem;padding:.25rem .6rem;border-radius:.4rem;border:1px solid var(--line)}
+.cov-on{color:#86efac;border-color:#166534 !important;background:rgba(22,101,52,.15)}
+.cov-off{color:var(--muted)}
 .badge{display:inline-block;font-size:.72rem;padding:.1rem .45rem;
   border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:.4rem}
 .badge.gap{color:var(--gap);border-color:var(--gap)}
